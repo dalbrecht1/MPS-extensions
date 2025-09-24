@@ -205,7 +205,7 @@
     <node concept="3EZMnI" id="6vHuLLnBMBE" role="2wV5jI">
       <node concept="3F0ifn" id="6vHuLLnBMBI" role="3EZMnx">
         <property role="3F0ifm" value="[" />
-        <ref role="1k5W1q" to="tpen:hY9fg1G" resolve="LeftParenAfterName" />
+        <ref role="1k5W1q" to="tpen:hFCSAw$" resolve="LeftParen" />
       </node>
       <node concept="3F1sOY" id="6vHuLLnBMBQ" role="3EZMnx">
         <ref role="1NtTu8" to="pkab:vJfcQmma$R" resolve="left" />
