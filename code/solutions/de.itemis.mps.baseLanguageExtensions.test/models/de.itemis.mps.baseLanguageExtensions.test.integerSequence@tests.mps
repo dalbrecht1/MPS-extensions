@@ -8,6 +8,7 @@
   </languages>
   <imports>
     <import index="96gm" ref="r:2eaed950-3bc1-47cd-9b02-e917ff994d7c(de.itemis.mps.baseLanguageExtensions.runtime)" />
+    <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -36,6 +37,9 @@
         <child id="1068580123133" name="returnType" index="3clF45" />
         <child id="1068580123135" name="body" index="3clF47" />
       </concept>
+      <concept id="1068580123155" name="jetbrains.mps.baseLanguage.structure.ExpressionStatement" flags="nn" index="3clFbF">
+        <child id="1068580123156" name="expression" index="3clFbG" />
+      </concept>
       <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
@@ -47,12 +51,12 @@
       </concept>
       <concept id="1068581242863" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" flags="nr" index="3cpWsn" />
       <concept id="1068581517677" name="jetbrains.mps.baseLanguage.structure.VoidType" flags="in" index="3cqZAl" />
-      <concept id="1160998861373" name="jetbrains.mps.baseLanguage.structure.AssertStatement" flags="nn" index="1gVbGN">
-        <child id="1160998896846" name="condition" index="1gVkn0" />
-      </concept>
       <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ng" index="1ndlxa">
         <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
         <child id="1068499141038" name="actualArgument" index="37wK5m" />
+      </concept>
+      <concept id="1107535904670" name="jetbrains.mps.baseLanguage.structure.ClassifierType" flags="in" index="3uibUv">
+        <reference id="1107535924139" name="classifier" index="3uigEE" />
       </concept>
       <concept id="1081773326031" name="jetbrains.mps.baseLanguage.structure.BinaryOperation" flags="nn" index="3uHJSO">
         <child id="1081773367579" name="rightExpression" index="3uHU7w" />
@@ -77,6 +81,10 @@
       </concept>
       <concept id="1171981022339" name="jetbrains.mps.baseLanguage.unitTest.structure.AssertTrue" flags="nn" index="3vwNmj">
         <child id="1171981057159" name="condition" index="3vwVQn" />
+      </concept>
+      <concept id="1172069869612" name="jetbrains.mps.baseLanguage.unitTest.structure.AssertThrows" flags="nn" index="3$NI$W">
+        <child id="1172070029086" name="statement" index="3$Oloe" />
+        <child id="1172070532815" name="exceptionType" index="3$Qgvv" />
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
@@ -204,8 +212,8 @@
               </node>
             </node>
           </node>
-          <node concept="1gVbGN" id="vJfcQmhaN1" role="3cqZAp">
-            <node concept="17R0WA" id="vJfcQmhca_" role="1gVkn0">
+          <node concept="3vwNmj" id="vJfcQmhvUG" role="3cqZAp">
+            <node concept="17R0WA" id="vJfcQmhca_" role="3vwVQn">
               <node concept="3cmrfG" id="vJfcQmhcc_" role="3uHU7w">
                 <property role="3cmrfH" value="0" />
               </node>
@@ -217,8 +225,8 @@
               </node>
             </node>
           </node>
-          <node concept="1gVbGN" id="vJfcQmhcOf" role="3cqZAp">
-            <node concept="17R0WA" id="vJfcQmheLG" role="1gVkn0">
+          <node concept="3vwNmj" id="vJfcQmhw4x" role="3cqZAp">
+            <node concept="17R0WA" id="vJfcQmheLG" role="3vwVQn">
               <node concept="3cmrfG" id="vJfcQmheOi" role="3uHU7w">
                 <property role="3cmrfH" value="100" />
               </node>
@@ -234,6 +242,30 @@
                   </node>
                 </node>
                 <node concept="1uHKPH" id="vJfcQmhhJw" role="2OqNvi" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3s$Bmu" id="vJfcQmm4Jw" role="3s_gse">
+        <property role="3s$Bm0" value="invalidArguments" />
+        <node concept="3cqZAl" id="vJfcQmm4Jx" role="3clF45" />
+        <node concept="3Tm1VV" id="vJfcQmm4Jy" role="1B3o_S" />
+        <node concept="3clFbS" id="vJfcQmm4Jz" role="3clF47">
+          <node concept="3$NI$W" id="vJfcQmm4Td" role="3cqZAp">
+            <node concept="3uibUv" id="vJfcQmm4Th" role="3$Qgvv">
+              <ref role="3uigEE" to="wyt6:~IllegalArgumentException" resolve="IllegalArgumentException" />
+            </node>
+            <node concept="3clFbF" id="vJfcQmm4V5" role="3$Oloe">
+              <node concept="2YIFZM" id="vJfcQmm4V7" role="3clFbG">
+                <ref role="37wK5l" to="96gm:vJfcQmguHw" resolve="range" />
+                <ref role="1Pybhc" to="96gm:vJfcQmguGr" resolve="IntegerSequence" />
+                <node concept="3cmrfG" id="vJfcQmm4V8" role="37wK5m">
+                  <property role="3cmrfH" value="10" />
+                </node>
+                <node concept="3cmrfG" id="vJfcQmm4V9" role="37wK5m">
+                  <property role="3cmrfH" value="9" />
+                </node>
               </node>
             </node>
           </node>
