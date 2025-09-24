@@ -253,7 +253,7 @@
             <node concept="liA8E" id="2o8W23REvaP" role="2OqNvi">
               <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.Object)" resolve="println" />
               <node concept="37vLTw" id="2o8W23REveQ" role="37wK5m">
-                <ref role="3cqZAo" node="2o8W23REpHv" resolve="desc" />
+                <ref role="3cqZAo" node="2o8W23REpHv" resolve="different" />
               </node>
             </node>
           </node>

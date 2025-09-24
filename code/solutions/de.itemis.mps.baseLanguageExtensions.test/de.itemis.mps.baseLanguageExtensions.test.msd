@@ -11,7 +11,6 @@
     </facet>
   </facets>
   <sourcePath />
-  <languageVersions />
   <dependencies>
     <dependency reexport="false">d91eaf6f-a378-467f-9524-0c201ee2e15f(de.itemis.mps.baseLanguageExtensions.runtime)</dependency>
     <dependency reexport="false">6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)</dependency>

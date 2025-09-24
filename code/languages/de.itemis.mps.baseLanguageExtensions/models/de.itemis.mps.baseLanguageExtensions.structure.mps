@@ -98,7 +98,7 @@
     <property role="TrG5h" value="IntegerRangeExpressionBound" />
     <property role="34LRSv" value="#" />
     <property role="3GE5qa" value="integerRange" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="vJfcQmma$Q" role="1TKVEi">
       <property role="IQ2ns" value="571742531387697462" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />

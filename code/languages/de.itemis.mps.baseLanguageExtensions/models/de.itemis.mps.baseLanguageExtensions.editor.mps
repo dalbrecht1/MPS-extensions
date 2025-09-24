@@ -321,7 +321,7 @@
           </node>
           <node concept="3clFbF" id="6vHuLLnCBNQ" role="3cqZAp">
             <node concept="37vLTw" id="6vHuLLnCC8k" role="3clFbG">
-              <ref role="3cqZAo" node="6vHuLLnCC8g" resolve="newInitializedNode" />
+              <ref role="3cqZAo" node="6vHuLLnCC8g" resolve="constBound" />
             </node>
           </node>
         </node>

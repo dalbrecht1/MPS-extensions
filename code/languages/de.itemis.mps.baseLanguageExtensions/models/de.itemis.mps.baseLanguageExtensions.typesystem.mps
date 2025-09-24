@@ -260,7 +260,7 @@
           <node concept="1Z2H0r" id="vJfcQmmdwl" role="mwGJk">
             <node concept="2OqwBi" id="vJfcQmmdCm" role="1Z2MuG">
               <node concept="1YBJjd" id="vJfcQmmdwB" role="2Oq$k0">
-                <ref role="1YBMHb" node="vJfcQmmdaW" resolve="integerRangeExpressionBound" />
+                <ref role="1YBMHb" node="vJfcQmmdaW" resolve="expressionBound" />
               </node>
               <node concept="3TrEf2" id="vJfcQmmdN7" role="2OqNvi">
                 <ref role="3Tt5mk" to="pkab:vJfcQmma$Q" resolve="expression" />
@@ -271,7 +271,7 @@
         <node concept="mw_s8" id="vJfcQmmdwg" role="1ZfhK$">
           <node concept="1Z2H0r" id="vJfcQmmdb2" role="mwGJk">
             <node concept="1YBJjd" id="vJfcQmmdcT" role="1Z2MuG">
-              <ref role="1YBMHb" node="vJfcQmmdaW" resolve="integerRangeExpressionBound" />
+              <ref role="1YBMHb" node="vJfcQmmdaW" resolve="expressionBound" />
             </node>
           </node>
         </node>
