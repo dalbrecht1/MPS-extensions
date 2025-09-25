@@ -183,7 +183,7 @@
         </node>
       </node>
       <node concept="3s$Bmu" id="vJfcQmh9iS" role="3s_gse">
-        <property role="3s$Bm0" value="inifiniteRange" />
+        <property role="3s$Bm0" value="infiniteRange" />
         <node concept="3cqZAl" id="vJfcQmh9iT" role="3clF45" />
         <node concept="3Tm1VV" id="vJfcQmh9iU" role="1B3o_S" />
         <node concept="3clFbS" id="vJfcQmh9iV" role="3clF47">

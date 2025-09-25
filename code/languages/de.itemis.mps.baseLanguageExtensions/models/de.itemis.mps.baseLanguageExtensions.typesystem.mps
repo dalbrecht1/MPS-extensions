@@ -11,7 +11,6 @@
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
-      <concept id="1153417849900" name="jetbrains.mps.baseLanguage.structure.GreaterThanOrEqualsExpression" flags="nn" index="2d3UOw" />
       <concept id="4836112446988635817" name="jetbrains.mps.baseLanguage.structure.UndefinedType" flags="in" index="2jxLKc" />
       <concept id="1197027756228" name="jetbrains.mps.baseLanguage.structure.DotExpression" flags="nn" index="2OqwBi">
         <child id="1197027771414" name="operand" index="2Oq$k0" />
@@ -51,6 +50,7 @@
         <child id="1068581242865" name="localVariableDeclaration" index="3cpWs9" />
       </concept>
       <concept id="1068581242863" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" flags="nr" index="3cpWsn" />
+      <concept id="1081506762703" name="jetbrains.mps.baseLanguage.structure.GreaterThanExpression" flags="nn" index="3eOSWO" />
       <concept id="1081773326031" name="jetbrains.mps.baseLanguage.structure.BinaryOperation" flags="nn" index="3uHJSO">
         <child id="1081773367579" name="rightExpression" index="3uHU7w" />
         <child id="1081773367580" name="leftExpression" index="3uHU7B" />
@@ -498,19 +498,19 @@
             <node concept="3clFbS" id="6vHuLLnDJFc" role="3clFbx">
               <node concept="a7r0C" id="6vHuLLnDMqM" role="3cqZAp">
                 <node concept="Xl_RD" id="6vHuLLnDMqY" role="a7wSD">
-                  <property role="Xl_RC" value="Left bound greater or equal than right bound" />
+                  <property role="Xl_RC" value="Left bound greater than right bound" />
                 </node>
                 <node concept="1YBJjd" id="6vHuLLnDMsg" role="1urrMF">
                   <ref role="1YBMHb" node="6vHuLLnDF3e" resolve="integerRange" />
                 </node>
               </node>
             </node>
-            <node concept="2d3UOw" id="6vHuLLnDMjJ" role="3clFbw">
-              <node concept="37vLTw" id="6vHuLLnDMjW" role="3uHU7w">
-                <ref role="3cqZAo" node="6vHuLLnDJcZ" resolve="rightValue" />
-              </node>
+            <node concept="3eOSWO" id="5IoIE_Gblbx" role="3clFbw">
               <node concept="37vLTw" id="6vHuLLnDJFl" role="3uHU7B">
                 <ref role="3cqZAo" node="6vHuLLnDJaJ" resolve="leftValue" />
+              </node>
+              <node concept="37vLTw" id="6vHuLLnDMjW" role="3uHU7w">
+                <ref role="3cqZAo" node="6vHuLLnDJcZ" resolve="rightValue" />
               </node>
             </node>
           </node>
