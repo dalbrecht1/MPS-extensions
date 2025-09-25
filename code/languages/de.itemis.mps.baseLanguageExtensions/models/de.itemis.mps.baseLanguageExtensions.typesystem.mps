@@ -78,6 +78,9 @@
       <concept id="1220357310820" name="jetbrains.mps.lang.typesystem.structure.AddDependencyStatement" flags="nn" index="yXGxS">
         <child id="1220357350423" name="dependency" index="yXQkb" />
       </concept>
+      <concept id="1224760201579" name="jetbrains.mps.lang.typesystem.structure.InfoStatement" flags="nn" index="Dpp1Q">
+        <child id="1224760230762" name="infoText" index="Dpw9R" />
+      </concept>
       <concept id="1205762105978" name="jetbrains.mps.lang.typesystem.structure.WhenConcreteVariableDeclaration" flags="ng" index="2X1qdy" />
       <concept id="1205762656241" name="jetbrains.mps.lang.typesystem.structure.WhenConcreteVariableReference" flags="nn" index="2X3wrD">
         <reference id="1205762683928" name="whenConcreteVar" index="2X3Bk0" />
@@ -387,12 +390,12 @@
           <node concept="3w_OXm" id="6vHuLLnDCoS" role="2OqNvi" />
         </node>
         <node concept="3clFbS" id="6vHuLLnDBCW" role="3clFbx">
-          <node concept="a7r0C" id="6vHuLLnDCt1" role="3cqZAp">
-            <node concept="Xl_RD" id="6vHuLLnDCta" role="a7wSD">
-              <property role="Xl_RC" value="This sequence in infinite" />
-            </node>
-            <node concept="1YBJjd" id="6vHuLLnDCtJ" role="1urrMF">
+          <node concept="Dpp1Q" id="2leJi_I92sT" role="3cqZAp">
+            <node concept="1YBJjd" id="2leJi_I92tk" role="1urrMF">
               <ref role="1YBMHb" node="6vHuLLnDBCL" resolve="integerRange" />
+            </node>
+            <node concept="Xl_RD" id="6vHuLLnDCta" role="Dpw9R">
+              <property role="Xl_RC" value="This sequence in infinite" />
             </node>
           </node>
         </node>
