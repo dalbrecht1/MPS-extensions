@@ -217,7 +217,10 @@
       <node concept="3F1sOY" id="6vHuLLnBMBY" role="3EZMnx">
         <property role="2ru_X1" value="true" />
         <ref role="1NtTu8" to="pkab:vJfcQmma$S" resolve="right" />
-        <node concept="3F0ifn" id="6vHuLLnC3wX" role="2ruayu" />
+        <node concept="3F0ifn" id="6vHuLLnC3wX" role="2ruayu">
+          <property role="3F0ifm" value="inf" />
+          <ref role="1k5W1q" to="tpen:4vDGnVWLnSS" resolve="Placeholder" />
+        </node>
       </node>
       <node concept="3F0ifn" id="6vHuLLnBMBL" role="3EZMnx">
         <property role="3F0ifm" value="]" />
