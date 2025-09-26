@@ -143,6 +143,7 @@
       <concept id="2751518233990321721" name="de.itemis.mps.baseLanguageExtensions.structure.ApplyScopeFunctionOperation" flags="ng" index="1kbSPS" />
       <concept id="2751518233990321724" name="de.itemis.mps.baseLanguageExtensions.structure.LetScopeFunctionOperation" flags="ng" index="1kbSPX" />
       <concept id="5566040892496752333" name="de.itemis.mps.baseLanguageExtensions.structure.SmartAtomicClosureParameterDeclaration" flags="ig" index="3nFU9Y" />
+      <concept id="8781002648718701503" name="de.itemis.mps.baseLanguageExtensions.structure.ToMapOperation" flags="ng" index="3pu13t" />
       <concept id="8919968723020343837" name="de.itemis.mps.baseLanguageExtensions.structure.ForEachWithIndexOperation" flags="ng" index="1sWJ9m" />
       <concept id="8919968723020245069" name="de.itemis.mps.baseLanguageExtensions.structure.WhereWithIndexOperation" flags="ng" index="1sZn06" />
       <concept id="578371460444482140" name="de.itemis.mps.baseLanguageExtensions.structure.ElvisOperation" flags="ng" index="1w0Eer" />
@@ -1586,6 +1587,67 @@
       <node concept="3cqZAl" id="2oJmO5M1vRm" role="3clF45" />
     </node>
     <node concept="3Tm1VV" id="2oJmO5M1vQd" role="1B3o_S" />
+  </node>
+  <node concept="312cEu" id="7BsoQawDymg">
+    <property role="TrG5h" value="ToMapOperationSandbox" />
+    <node concept="2YIFZL" id="7BsoQawDynE" role="jymVt">
+      <property role="TrG5h" value="usages" />
+      <node concept="3clFbS" id="7BsoQawDynH" role="3clF47">
+        <node concept="3clFbF" id="7BsoQawDyoj" role="3cqZAp">
+          <node concept="2OqwBi" id="7BsoQawDyog" role="3clFbG">
+            <node concept="10M0yZ" id="7BsoQawDyoh" role="2Oq$k0">
+              <ref role="1PxDUh" to="wyt6:~System" />
+              <ref role="3cqZAo" to="wyt6:~System.out" />
+            </node>
+            <node concept="liA8E" id="7BsoQawDyoi" role="2OqNvi">
+              <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.Object)" resolve="println" />
+              <node concept="2OqwBi" id="7BsoQawDw_T" role="37wK5m">
+                <node concept="2OqwBi" id="7BsoQawDw_U" role="2Oq$k0">
+                  <node concept="2ShNRf" id="7BsoQawDw_V" role="2Oq$k0">
+                    <node concept="Tc6Ow" id="7BsoQawDw_W" role="2ShVmc">
+                      <node concept="10Oyi0" id="7BsoQawDw_X" role="HW$YZ" />
+                      <node concept="3cmrfG" id="7BsoQawDw_Y" role="HW$Y0">
+                        <property role="3cmrfH" value="1" />
+                      </node>
+                      <node concept="3cmrfG" id="7BsoQawDw_Z" role="HW$Y0">
+                        <property role="3cmrfH" value="1" />
+                      </node>
+                      <node concept="3cmrfG" id="7BsoQawDwA0" role="HW$Y0">
+                        <property role="3cmrfH" value="3" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="Kbfsy" id="7BsoQawDwA1" role="2OqNvi">
+                    <node concept="2hHQnJ" id="7BsoQawDwA2" role="576Qk">
+                      <node concept="2hHTnT" id="7BsoQawDwA3" role="2hHTnU">
+                        <property role="KjLWg" value="1" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="3pu13t" id="7BsoQawDwA4" role="2OqNvi" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3SKdUt" id="7BsoQawDz5d" role="3cqZAp">
+          <node concept="1PaTwC" id="7BsoQawDz5e" role="1aUNEU">
+            <node concept="3oM_SD" id="7BsoQawDzgc" role="1PaTwD">
+              <property role="3oM_SC" value="[1=[1," />
+            </node>
+            <node concept="3oM_SD" id="7BsoQawDzgd" role="1PaTwD">
+              <property role="3oM_SC" value="2]," />
+            </node>
+            <node concept="3oM_SD" id="7BsoQawDzge" role="1PaTwD">
+              <property role="3oM_SC" value="3=[3]]" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="7BsoQawDynj" role="1B3o_S" />
+      <node concept="3cqZAl" id="7BsoQawDynw" role="3clF45" />
+    </node>
+    <node concept="3Tm1VV" id="7BsoQawDymh" role="1B3o_S" />
   </node>
 </model>
 
