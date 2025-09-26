@@ -194,5 +194,20 @@
     <property role="R4oN_" value="smart closure parameter" />
     <ref role="1TJDcQ" to="tp2q:hwRh6j$" resolve="SmartClosureParameterDeclaration" />
   </node>
+  <node concept="1TIwiD" id="4OYzberaMVo">
+    <property role="EcuMT" value="5566040892506844888" />
+    <property role="TrG5h" value="MapElementOrCompute" />
+    <property role="34LRSv" value="[ =&gt;" />
+    <property role="R4oN_" value="get or put" />
+    <property role="3GE5qa" value="mapGetOrPutOperation" />
+    <ref role="1TJDcQ" to="tp2q:hrEllC_" resolve="MapElement" />
+    <node concept="1TJgyj" id="4OYzberaMVq" role="1TKVEi">
+      <property role="IQ2ns" value="5566040892506844890" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="closure" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+    </node>
+  </node>
 </model>
 
