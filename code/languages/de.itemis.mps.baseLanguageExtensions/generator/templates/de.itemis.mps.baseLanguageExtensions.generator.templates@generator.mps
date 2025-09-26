@@ -1016,6 +1016,50 @@
         </node>
       </node>
     </node>
+    <node concept="3aamgX" id="7BsoQawDn_B" role="3acgRq">
+      <ref role="30HIoZ" to="tpee:hqOqwz4" resolve="DotExpression" />
+      <node concept="gft3U" id="7BsoQawDn_C" role="1lVwrX">
+        <node concept="2YIFZM" id="7BsoQawDos$" role="gfFT$">
+          <ref role="37wK5l" to="96gm:7BsoQawA4c5" resolve="toMapPairs" />
+          <ref role="1Pybhc" to="96gm:7BsoQawA4aD" resolve="ToMapOperationUtil" />
+          <node concept="10Nm6u" id="7BsoQawDo_$" role="37wK5m">
+            <node concept="29HgVG" id="7BsoQawDoBy" role="lGtFl">
+              <node concept="3NFfHV" id="7BsoQawDoBz" role="3NFExx">
+                <node concept="3clFbS" id="7BsoQawDoB$" role="2VODD2">
+                  <node concept="3clFbF" id="7BsoQawDoBE" role="3cqZAp">
+                    <node concept="2OqwBi" id="7BsoQawDoB_" role="3clFbG">
+                      <node concept="3TrEf2" id="7BsoQawDoBC" role="2OqNvi">
+                        <ref role="3Tt5mk" to="tpee:hqOq$gm" resolve="operand" />
+                      </node>
+                      <node concept="30H73N" id="7BsoQawDoBD" role="2Oq$k0" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="30G5F_" id="7BsoQawDnAC" role="30HLyM">
+        <node concept="3clFbS" id="7BsoQawDnAD" role="2VODD2">
+          <node concept="3clFbF" id="7BsoQawDnAE" role="3cqZAp">
+            <node concept="2OqwBi" id="7BsoQawDnAF" role="3clFbG">
+              <node concept="2OqwBi" id="7BsoQawDnAG" role="2Oq$k0">
+                <node concept="30H73N" id="7BsoQawDnAH" role="2Oq$k0" />
+                <node concept="3TrEf2" id="7BsoQawDnAI" role="2OqNvi">
+                  <ref role="3Tt5mk" to="tpee:hqOqNr4" resolve="operation" />
+                </node>
+              </node>
+              <node concept="1mIQ4w" id="7BsoQawDnAJ" role="2OqNvi">
+                <node concept="chp4Y" id="7BsoQawDopi" role="cj9EA">
+                  <ref role="cht4Q" to="pkab:7BsoQawD7eZ" resolve="ToMapOperation" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="jVnub" id="54jQkZ9fKWX">
     <property role="TrG5h" value="switchClosureLiteral" />

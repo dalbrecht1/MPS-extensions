@@ -194,5 +194,12 @@
     <property role="R4oN_" value="smart closure parameter" />
     <ref role="1TJDcQ" to="tp2q:hwRh6j$" resolve="SmartClosureParameterDeclaration" />
   </node>
+  <node concept="1TIwiD" id="7BsoQawD7eZ">
+    <property role="EcuMT" value="8781002648718701503" />
+    <property role="TrG5h" value="ToMapOperation" />
+    <property role="34LRSv" value="toMap" />
+    <property role="R4oN_" value="transforms a sequence of pairs to a map" />
+    <ref role="1TJDcQ" to="tp2q:gKAMqbp" resolve="SequenceOperation" />
+  </node>
 </model>
 
