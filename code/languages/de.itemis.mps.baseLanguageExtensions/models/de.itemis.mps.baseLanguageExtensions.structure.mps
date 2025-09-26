@@ -36,6 +36,7 @@
         <property id="1071599893252" name="sourceCardinality" index="20lbJX" />
         <property id="1071599937831" name="metaClass" index="20lmBu" />
         <property id="241647608299431140" name="linkId" index="IQ2ns" />
+        <reference id="1071599698500" name="specializedLink" index="20ksaX" />
         <reference id="1071599976176" name="target" index="20lvS9" />
       </concept>
     </language>
@@ -129,11 +130,11 @@
     <property role="3GE5qa" value="groupByOperation" />
     <ref role="1TJDcQ" to="tp2q:hy3sC_q" resolve="InternalSequenceOperation" />
   </node>
-  <node concept="1TIwiD" id="7Ja64GBeeCt">
-    <property role="EcuMT" value="8919968723020343837" />
-    <property role="TrG5h" value="ForEachWithIndexOperation" />
-    <property role="34LRSv" value="forEachIdx" />
-    <property role="R4oN_" value="execute for each element with index" />
+  <node concept="1TIwiD" id="6RqC_fThQjL">
+    <property role="EcuMT" value="7915817776605258993" />
+    <property role="TrG5h" value="SelectWithIndexOperation" />
+    <property role="34LRSv" value="selectIdx" />
+    <property role="R4oN_" value="transform each element and index" />
     <property role="3GE5qa" value="withIndexOperations" />
     <ref role="1TJDcQ" to="tp2q:hy3sC_q" resolve="InternalSequenceOperation" />
   </node>
@@ -145,13 +146,35 @@
     <property role="3GE5qa" value="withIndexOperations" />
     <ref role="1TJDcQ" to="tp2q:hy3sC_q" resolve="InternalSequenceOperation" />
   </node>
-  <node concept="1TIwiD" id="6RqC_fThQjL">
-    <property role="EcuMT" value="7915817776605258993" />
-    <property role="TrG5h" value="SelectWithIndexOperation" />
-    <property role="34LRSv" value="selectIdx" />
-    <property role="R4oN_" value="transform each element and index" />
+  <node concept="1TIwiD" id="7Ja64GBeeCt">
+    <property role="EcuMT" value="8919968723020343837" />
+    <property role="TrG5h" value="ForEachWithIndexOperation" />
+    <property role="34LRSv" value="forEachIdx" />
+    <property role="R4oN_" value="execute for each element with index" />
     <property role="3GE5qa" value="withIndexOperations" />
     <ref role="1TJDcQ" to="tp2q:hy3sC_q" resolve="InternalSequenceOperation" />
+  </node>
+  <node concept="1TIwiD" id="3FS0SfFPObX">
+    <property role="EcuMT" value="4249150113556415229" />
+    <property role="TrG5h" value="TypeAliasType" />
+    <property role="R4oN_" value="reference to a type alias" />
+    <property role="3GE5qa" value="typeAlias" />
+    <ref role="1TJDcQ" to="tpee:g7uibYu" resolve="ClassifierType" />
+    <node concept="1TJgyj" id="3FS0SfFPObY" role="1TKVEi">
+      <property role="IQ2ns" value="4249150113556415230" />
+      <property role="20kJfa" value="typeAliasDeclaration" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="3FS0SfFP0X9" resolve="TypeAliasDeclaration" />
+      <ref role="20ksaX" to="tpee:g7uigIF" resolve="classifier" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="4OYzbeq$iVd">
+    <property role="EcuMT" value="5566040892496752333" />
+    <property role="3GE5qa" value="scopeFunction" />
+    <property role="TrG5h" value="SmartAtomicClosureParameterDeclaration" />
+    <property role="34LRSv" value="~ &lt;name&gt;" />
+    <property role="R4oN_" value="smart closure parameter" />
+    <ref role="1TJDcQ" to="tp2q:hwRh6j$" resolve="SmartClosureParameterDeclaration" />
   </node>
   <node concept="1TIwiD" id="2oJmO5M0doW">
     <property role="EcuMT" value="2751518233990321724" />
@@ -160,6 +183,21 @@
     <property role="34LRSv" value="let" />
     <property role="R4oN_" value="select anything from any object/instance" />
     <ref role="1TJDcQ" node="2oJmO5M0doP" resolve="ScopeFunctionOperation" />
+  </node>
+  <node concept="1TIwiD" id="3FS0SfFP0X9">
+    <property role="EcuMT" value="4249150113556205385" />
+    <property role="TrG5h" value="TypeAliasDeclaration" />
+    <property role="34LRSv" value="type alias" />
+    <property role="R4oN_" value="Type alias declaration" />
+    <property role="3GE5qa" value="typeAlias" />
+    <ref role="1TJDcQ" to="tpee:g7pOWCK" resolve="Classifier" />
+    <node concept="1TJgyj" id="3FS0SfFP0YE" role="1TKVEi">
+      <property role="IQ2ns" value="4249150113556205482" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="type" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" to="tpee:fz3vP1H" resolve="Type" />
+    </node>
   </node>
   <node concept="1TIwiD" id="2oJmO5M0doT">
     <property role="EcuMT" value="2751518233990321721" />
@@ -185,14 +223,6 @@
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
     </node>
-  </node>
-  <node concept="1TIwiD" id="4OYzbeq$iVd">
-    <property role="EcuMT" value="5566040892496752333" />
-    <property role="3GE5qa" value="scopeFunction" />
-    <property role="TrG5h" value="SmartAtomicClosureParameterDeclaration" />
-    <property role="34LRSv" value="~ &lt;name&gt;" />
-    <property role="R4oN_" value="smart closure parameter" />
-    <ref role="1TJDcQ" to="tp2q:hwRh6j$" resolve="SmartClosureParameterDeclaration" />
   </node>
 </model>
 
