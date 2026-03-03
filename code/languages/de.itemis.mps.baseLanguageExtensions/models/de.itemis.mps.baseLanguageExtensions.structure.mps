@@ -209,5 +209,27 @@
       <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
     </node>
   </node>
+  <node concept="1TIwiD" id="3bMhTtR51d8">
+    <property role="EcuMT" value="3671075362123813704" />
+    <property role="3GE5qa" value="mapGetOrPutOperation" />
+    <property role="TrG5h" value="GetOrComputeOperation" />
+    <property role="34LRSv" value="getOrPut" />
+    <property role="R4oN_" value="get or put" />
+    <ref role="1TJDcQ" to="tp2q:huID7Cm" resolve="MapOperation" />
+    <node concept="1TJgyj" id="3bMhTtR51da" role="1TKVEi">
+      <property role="IQ2ns" value="3671075362123813706" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="key" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+    </node>
+    <node concept="1TJgyj" id="3bMhTtR51d9" role="1TKVEi">
+      <property role="IQ2ns" value="3671075362123813705" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="closure" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+    </node>
+  </node>
 </model>
 

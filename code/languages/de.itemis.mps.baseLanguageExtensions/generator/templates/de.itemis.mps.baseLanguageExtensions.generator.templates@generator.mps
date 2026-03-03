@@ -1034,6 +1034,116 @@
         </node>
       </node>
     </node>
+    <node concept="3aamgX" id="7kYXsDneRDJ" role="3acgRq">
+      <ref role="30HIoZ" to="tpee:hqOqwz4" resolve="DotExpression" />
+      <node concept="30G5F_" id="7kYXsDneUWt" role="30HLyM">
+        <node concept="3clFbS" id="7kYXsDneUWu" role="2VODD2">
+          <node concept="3clFbF" id="7kYXsDneUXC" role="3cqZAp">
+            <node concept="2OqwBi" id="7kYXsDneW2V" role="3clFbG">
+              <node concept="2OqwBi" id="7kYXsDneVhf" role="2Oq$k0">
+                <node concept="30H73N" id="7kYXsDneUXB" role="2Oq$k0" />
+                <node concept="3TrEf2" id="7kYXsDneVQh" role="2OqNvi">
+                  <ref role="3Tt5mk" to="tpee:hqOqNr4" resolve="operation" />
+                </node>
+              </node>
+              <node concept="1mIQ4w" id="7kYXsDneWsb" role="2OqNvi">
+                <node concept="chp4Y" id="7kYXsDneWt8" role="cj9EA">
+                  <ref role="cht4Q" to="pkab:3bMhTtR51d8" resolve="GetOrComputeOperation" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="gft3U" id="7kYXsDneWDn" role="1lVwrX">
+        <node concept="2OqwBi" id="7kYXsDnf2YG" role="gfFT$">
+          <node concept="2OqwBi" id="7kYXsDneWEp" role="2Oq$k0">
+            <node concept="1eOMI4" id="7kYXsDneWEA" role="2Oq$k0">
+              <node concept="10QFUN" id="7kYXsDneWEz" role="1eOMHV">
+                <node concept="3uibUv" id="7kYXsDneWFC" role="10QFUM">
+                  <ref role="3uigEE" to="urs3:5Ffu4tBU$6H" resolve="IMapSequence" />
+                </node>
+                <node concept="10Nm6u" id="7kYXsDneX2N" role="10QFUP" />
+              </node>
+              <node concept="1sPUBX" id="7kYXsDneX36" role="lGtFl">
+                <ref role="v9R2y" to="tp2r:hwGFo3P" resolve="switch_sequence_operation_toSequence" />
+                <node concept="3NFfHV" id="7kYXsDnf7EO" role="1sPUBK">
+                  <node concept="3clFbS" id="7kYXsDnf7EP" role="2VODD2">
+                    <node concept="3clFbF" id="7kYXsDnf7UM" role="3cqZAp">
+                      <node concept="2OqwBi" id="7kYXsDnf8aM" role="3clFbG">
+                        <node concept="30H73N" id="7kYXsDnf7UL" role="2Oq$k0" />
+                        <node concept="3TrEf2" id="7kYXsDnf8M6" role="2OqNvi">
+                          <ref role="3Tt5mk" to="tpee:hqOq$gm" resolve="operand" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="liA8E" id="7kYXsDnf0$4" role="2OqNvi">
+              <ref role="37wK5l" to="urs3:5Ffu4tBU$7h" resolve="toMap" />
+            </node>
+          </node>
+          <node concept="liA8E" id="7kYXsDnf6cB" role="2OqNvi">
+            <ref role="37wK5l" to="33ny:~Map.computeIfAbsent(java.lang.Object,java.util.function.Function)" resolve="computeIfAbsent" />
+            <node concept="10Nm6u" id="7kYXsDnf6Zu" role="37wK5m">
+              <node concept="29HgVG" id="7kYXsDnf8QF" role="lGtFl">
+                <node concept="3NFfHV" id="7kYXsDnf8QG" role="3NFExx">
+                  <node concept="3clFbS" id="7kYXsDnf8QH" role="2VODD2">
+                    <node concept="3clFbF" id="7kYXsDnf8QN" role="3cqZAp">
+                      <node concept="2OqwBi" id="7kYXsDnf9Wu" role="3clFbG">
+                        <node concept="1PxgMI" id="7kYXsDnf9GK" role="2Oq$k0">
+                          <node concept="chp4Y" id="7kYXsDnf9HZ" role="3oSUPX">
+                            <ref role="cht4Q" to="pkab:3bMhTtR51d8" resolve="GetOrComputeOperation" />
+                          </node>
+                          <node concept="2OqwBi" id="7kYXsDnf8QI" role="1m5AlR">
+                            <node concept="3TrEf2" id="7kYXsDnf8QL" role="2OqNvi">
+                              <ref role="3Tt5mk" to="tpee:hqOqNr4" resolve="operation" />
+                            </node>
+                            <node concept="30H73N" id="7kYXsDnf8QM" role="2Oq$k0" />
+                          </node>
+                        </node>
+                        <node concept="3TrEf2" id="7kYXsDnfagC" role="2OqNvi">
+                          <ref role="3Tt5mk" to="pkab:3bMhTtR51da" resolve="key" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="10Nm6u" id="7kYXsDnfbVA" role="37wK5m">
+              <node concept="1sPUBX" id="7kYXsDnfcgc" role="lGtFl">
+                <ref role="v9R2y" node="54jQkZ9fKWX" resolve="switchClosureLiteral" />
+                <node concept="3NFfHV" id="7kYXsDnfcuW" role="1sPUBK">
+                  <node concept="3clFbS" id="7kYXsDnfcuX" role="2VODD2">
+                    <node concept="3clFbF" id="7kYXsDnfcIW" role="3cqZAp">
+                      <node concept="2OqwBi" id="7kYXsDnfdWz" role="3clFbG">
+                        <node concept="1PxgMI" id="7kYXsDnfdIO" role="2Oq$k0">
+                          <node concept="chp4Y" id="7kYXsDnfdJM" role="3oSUPX">
+                            <ref role="cht4Q" to="pkab:3bMhTtR51d8" resolve="GetOrComputeOperation" />
+                          </node>
+                          <node concept="2OqwBi" id="7kYXsDnfcXI" role="1m5AlR">
+                            <node concept="30H73N" id="7kYXsDnfcIV" role="2Oq$k0" />
+                            <node concept="3TrEf2" id="7kYXsDnfdyQ" role="2OqNvi">
+                              <ref role="3Tt5mk" to="tpee:hqOqNr4" resolve="operation" />
+                            </node>
+                          </node>
+                        </node>
+                        <node concept="3TrEf2" id="7kYXsDnfeAC" role="2OqNvi">
+                          <ref role="3Tt5mk" to="pkab:3bMhTtR51d9" resolve="closure" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="3aamgX" id="4OYzberkEy$" role="3acgRq">
       <ref role="30HIoZ" to="pkab:4OYzberaMVo" resolve="MapElementOrCompute" />
       <node concept="gft3U" id="4OYzberkG_c" role="1lVwrX">

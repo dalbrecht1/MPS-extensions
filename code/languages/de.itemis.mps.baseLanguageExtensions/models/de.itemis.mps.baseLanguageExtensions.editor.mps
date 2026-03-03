@@ -839,5 +839,42 @@
       </node>
     </node>
   </node>
+  <node concept="24kQdi" id="3bMhTtR5JMX">
+    <property role="3GE5qa" value="mapGetOrPutOperation" />
+    <ref role="1XX52x" to="pkab:3bMhTtR51d8" resolve="GetOrComputeOperation" />
+    <node concept="3EZMnI" id="3bMhTtR5JMZ" role="2wV5jI">
+      <node concept="PMmxH" id="3bMhTtR5JN3" role="3EZMnx">
+        <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
+      </node>
+      <node concept="3F0ifn" id="3bMhTtR5JN5" role="3EZMnx">
+        <property role="3F0ifm" value="(" />
+        <node concept="11L4FC" id="3bMhTtR5JNk" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="11LMrY" id="3bMhTtR5JNm" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F1sOY" id="3bMhTtR5JNb" role="3EZMnx">
+        <ref role="1NtTu8" to="pkab:3bMhTtR51da" resolve="key" />
+      </node>
+      <node concept="3F0ifn" id="3bMhTtR5JNe" role="3EZMnx">
+        <property role="3F0ifm" value="," />
+        <node concept="11L4FC" id="3bMhTtR5JNj" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F1sOY" id="3bMhTtR5JNh" role="3EZMnx">
+        <ref role="1NtTu8" to="pkab:3bMhTtR51d9" resolve="closure" />
+      </node>
+      <node concept="3F0ifn" id="3bMhTtR5JN8" role="3EZMnx">
+        <property role="3F0ifm" value=")" />
+        <node concept="11LMrY" id="3bMhTtR5JNo" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="l2Vlx" id="3bMhTtR8zqz" role="2iSdaV" />
+    </node>
+  </node>
 </model>
 
