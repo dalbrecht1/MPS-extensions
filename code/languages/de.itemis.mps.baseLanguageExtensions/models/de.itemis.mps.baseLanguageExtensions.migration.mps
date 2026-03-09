@@ -540,5 +540,168 @@
       </node>
     </node>
   </node>
+  <node concept="Z5qvL" id="1Ka$n8$1qGE">
+    <property role="Z5qvQ" value="5" />
+    <property role="TrG5h" value="Migrate_MoveConcepts_5" />
+    <property role="1AQGQl" value="Move 4 concepts to language `com.mbeddr.mpsutil.blutil`" />
+    <node concept="Z4OXk" id="1Ka$n8$1qGQ" role="Z5rET">
+      <node concept="2pBcaW" id="1Ka$n8$1qGO" role="Z5P1v">
+        <property role="2pBcoG" value="2751518233990321721" />
+        <property role="2pBcow" value="r:63a6d225-96f6-404a-a9eb-033dc2f950a1(de.itemis.mps.baseLanguageExtensions.structure)" />
+        <property role="2pBc3U" value="ApplyScopeFunctionOperation_old" />
+      </node>
+      <node concept="2pBcaW" id="1Ka$n8$1qGP" role="Z5P1t">
+        <property role="2pBcoG" value="2751518233990321721" />
+        <property role="2pBcow" value="63e0e566-5131-447e-90e3-12ea330e1a00/r:f5bd2ad9-cd54-4408-b815-07f9f306f074(com.mbeddr.mpsutil.blutil/com.mbeddr.mpsutil.blutil.structure)" />
+        <property role="2pBc3U" value="ApplyScopeFunctionOperation" />
+      </node>
+      <node concept="7a1rZ" id="1Ka$n8$1qGN" role="7agGg">
+        <node concept="2x4n5u" id="1Ka$n8$1qGJ" role="HKsnP">
+          <property role="2x4mPI" value="ApplyScopeFunctionOperation_old" />
+          <property role="2x4n5l" value="kwkjt6k6apmh" />
+          <node concept="2V$Bhx" id="1Ka$n8$1qGK" role="2x4n5j">
+            <property role="2V$B1T" value="52b771c2-b79f-4f44-98f2-d24fd25a210b" />
+            <property role="2V$B1Q" value="de.itemis.mps.baseLanguageExtensions" />
+          </node>
+        </node>
+        <node concept="2x4n5u" id="1Ka$n8$1qGL" role="HKsnM">
+          <property role="2x4mPI" value="ApplyScopeFunctionOperation" />
+          <property role="2x4n5l" value="kwkjt6k6apmh" />
+          <node concept="2V$Bhx" id="1Ka$n8$1qGM" role="2x4n5j">
+            <property role="2V$B1T" value="63e0e566-5131-447e-90e3-12ea330e1a00" />
+            <property role="2V$B1Q" value="com.mbeddr.mpsutil.blutil" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="Z4OXk" id="1Ka$n8$1qH2" role="Z5rET">
+      <node concept="2pBcaW" id="1Ka$n8$1qH0" role="Z5P1v">
+        <property role="2pBcoG" value="2751518233990321724" />
+        <property role="2pBcow" value="r:63a6d225-96f6-404a-a9eb-033dc2f950a1(de.itemis.mps.baseLanguageExtensions.structure)" />
+        <property role="2pBc3U" value="LetScopeFunctionOperation_old" />
+      </node>
+      <node concept="2pBcaW" id="1Ka$n8$1qH1" role="Z5P1t">
+        <property role="2pBcoG" value="2751518233990321724" />
+        <property role="2pBcow" value="63e0e566-5131-447e-90e3-12ea330e1a00/r:f5bd2ad9-cd54-4408-b815-07f9f306f074(com.mbeddr.mpsutil.blutil/com.mbeddr.mpsutil.blutil.structure)" />
+        <property role="2pBc3U" value="LetScopeFunctionOperation" />
+      </node>
+      <node concept="7a1rZ" id="1Ka$n8$1qGZ" role="7agGg">
+        <node concept="2x4n5u" id="1Ka$n8$1qGV" role="HKsnP">
+          <property role="2x4mPI" value="LetScopeFunctionOperation_old" />
+          <property role="2x4n5l" value="kwkjt6k6apmk" />
+          <node concept="2V$Bhx" id="1Ka$n8$1qGW" role="2x4n5j">
+            <property role="2V$B1T" value="52b771c2-b79f-4f44-98f2-d24fd25a210b" />
+            <property role="2V$B1Q" value="de.itemis.mps.baseLanguageExtensions" />
+          </node>
+        </node>
+        <node concept="2x4n5u" id="1Ka$n8$1qGX" role="HKsnM">
+          <property role="2x4mPI" value="LetScopeFunctionOperation" />
+          <property role="2x4n5l" value="kwkjt6k6apmk" />
+          <node concept="2V$Bhx" id="1Ka$n8$1qGY" role="2x4n5j">
+            <property role="2V$B1T" value="63e0e566-5131-447e-90e3-12ea330e1a00" />
+            <property role="2V$B1Q" value="com.mbeddr.mpsutil.blutil" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="Z4OXk" id="1Ka$n8$1qHe" role="Z5rET">
+      <node concept="2pBcaW" id="1Ka$n8$1qHc" role="Z5P1v">
+        <property role="2pBcoG" value="2751518233990321717" />
+        <property role="2pBcow" value="r:63a6d225-96f6-404a-a9eb-033dc2f950a1(de.itemis.mps.baseLanguageExtensions.structure)" />
+        <property role="2pBc3U" value="ScopeFunctionOperation_old" />
+      </node>
+      <node concept="2pBcaW" id="1Ka$n8$1qHd" role="Z5P1t">
+        <property role="2pBcoG" value="2751518233990321717" />
+        <property role="2pBcow" value="63e0e566-5131-447e-90e3-12ea330e1a00/r:f5bd2ad9-cd54-4408-b815-07f9f306f074(com.mbeddr.mpsutil.blutil/com.mbeddr.mpsutil.blutil.structure)" />
+        <property role="2pBc3U" value="ScopeFunctionOperation" />
+      </node>
+      <node concept="7a1rZ" id="1Ka$n8$1qHb" role="7agGg">
+        <node concept="2x4n5u" id="1Ka$n8$1qH7" role="HKsnP">
+          <property role="2x4mPI" value="ScopeFunctionOperation_old" />
+          <property role="2x4n5l" value="kwkjt6k6apmd" />
+          <node concept="2V$Bhx" id="1Ka$n8$1qH8" role="2x4n5j">
+            <property role="2V$B1T" value="52b771c2-b79f-4f44-98f2-d24fd25a210b" />
+            <property role="2V$B1Q" value="de.itemis.mps.baseLanguageExtensions" />
+          </node>
+        </node>
+        <node concept="2x4n5u" id="1Ka$n8$1qH9" role="HKsnM">
+          <property role="2x4mPI" value="ScopeFunctionOperation" />
+          <property role="2x4n5l" value="kwkjt6k6apmd" />
+          <node concept="2V$Bhx" id="1Ka$n8$1qHa" role="2x4n5j">
+            <property role="2V$B1T" value="63e0e566-5131-447e-90e3-12ea330e1a00" />
+            <property role="2V$B1Q" value="com.mbeddr.mpsutil.blutil" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="Z4OXk" id="1Ka$n8$1qHq" role="Z5rET">
+      <node concept="2pBcaW" id="1Ka$n8$1qHo" role="Z5P1v">
+        <property role="2pBcoG" value="5566040892496752333" />
+        <property role="2pBcow" value="r:63a6d225-96f6-404a-a9eb-033dc2f950a1(de.itemis.mps.baseLanguageExtensions.structure)" />
+        <property role="2pBc3U" value="SmartAtomicClosureParameterDeclaration_old" />
+      </node>
+      <node concept="2pBcaW" id="1Ka$n8$1qHp" role="Z5P1t">
+        <property role="2pBcoG" value="5566040892496752333" />
+        <property role="2pBcow" value="63e0e566-5131-447e-90e3-12ea330e1a00/r:f5bd2ad9-cd54-4408-b815-07f9f306f074(com.mbeddr.mpsutil.blutil/com.mbeddr.mpsutil.blutil.structure)" />
+        <property role="2pBc3U" value="SmartAtomicClosureParameterDeclaration" />
+      </node>
+      <node concept="7a1rZ" id="1Ka$n8$1qHn" role="7agGg">
+        <node concept="2x4n5u" id="1Ka$n8$1qHj" role="HKsnP">
+          <property role="2x4mPI" value="SmartAtomicClosureParameterDeclaration_old" />
+          <property role="2x4n5l" value="16adgtq63g9fx" />
+          <node concept="2V$Bhx" id="1Ka$n8$1qHk" role="2x4n5j">
+            <property role="2V$B1T" value="52b771c2-b79f-4f44-98f2-d24fd25a210b" />
+            <property role="2V$B1Q" value="de.itemis.mps.baseLanguageExtensions" />
+          </node>
+        </node>
+        <node concept="2x4n5u" id="1Ka$n8$1qHl" role="HKsnM">
+          <property role="2x4mPI" value="SmartAtomicClosureParameterDeclaration" />
+          <property role="2x4n5l" value="16adgtq63g9fx" />
+          <node concept="2V$Bhx" id="1Ka$n8$1qHm" role="2x4n5j">
+            <property role="2V$B1T" value="63e0e566-5131-447e-90e3-12ea330e1a00" />
+            <property role="2V$B1Q" value="com.mbeddr.mpsutil.blutil" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="Z4OXk" id="1Ka$n8$1qH_" role="Z5rET">
+      <node concept="2pBcaW" id="1Ka$n8$1qHz" role="Z5P1v">
+        <property role="2pBcoG" value="2751518233990321719" />
+        <property role="2pBcow" value="r:63a6d225-96f6-404a-a9eb-033dc2f950a1(de.itemis.mps.baseLanguageExtensions.structure)" />
+        <property role="2pBc3U" value="closure_old" />
+      </node>
+      <node concept="2pBcaW" id="1Ka$n8$1qH$" role="Z5P1t">
+        <property role="2pBcoG" value="2751518233990321719" />
+        <property role="2pBcow" value="63e0e566-5131-447e-90e3-12ea330e1a00/r:f5bd2ad9-cd54-4408-b815-07f9f306f074(com.mbeddr.mpsutil.blutil/com.mbeddr.mpsutil.blutil.structure)" />
+        <property role="2pBc3U" value="closure" />
+      </node>
+      <node concept="7a1rN" id="1Ka$n8$1qHy" role="7agGg">
+        <node concept="HUanS" id="1Ka$n8$1qHs" role="HTpAE">
+          <property role="HUanP" value="closure_old" />
+          <property role="HUanQ" value="kwkjt6k6apmf" />
+          <node concept="2x4n5u" id="1Ka$n8$1qHt" role="HUanR">
+            <property role="2x4mPI" value="ScopeFunctionOperation_old" />
+            <property role="2x4n5l" value="kwkjt6k6apmd" />
+            <node concept="2V$Bhx" id="1Ka$n8$1qHu" role="2x4n5j">
+              <property role="2V$B1T" value="52b771c2-b79f-4f44-98f2-d24fd25a210b" />
+              <property role="2V$B1Q" value="de.itemis.mps.baseLanguageExtensions" />
+            </node>
+          </node>
+        </node>
+        <node concept="HUanS" id="1Ka$n8$1qHv" role="HTpAD">
+          <property role="HUanP" value="closure" />
+          <property role="HUanQ" value="kwkjt6k6apmf" />
+          <node concept="2x4n5u" id="1Ka$n8$1qHw" role="HUanR">
+            <property role="2x4mPI" value="ScopeFunctionOperation" />
+            <property role="2x4n5l" value="kwkjt6k6apmd" />
+            <node concept="2V$Bhx" id="1Ka$n8$1qHx" role="2x4n5j">
+              <property role="2V$B1T" value="63e0e566-5131-447e-90e3-12ea330e1a00" />
+              <property role="2V$B1Q" value="com.mbeddr.mpsutil.blutil" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 

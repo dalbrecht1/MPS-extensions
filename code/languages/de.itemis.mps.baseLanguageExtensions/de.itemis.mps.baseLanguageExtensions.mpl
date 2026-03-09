@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<language namespace="de.itemis.mps.baseLanguageExtensions" uuid="52b771c2-b79f-4f44-98f2-d24fd25a210b" languageVersion="5" moduleVersion="0">
+<language namespace="de.itemis.mps.baseLanguageExtensions" uuid="52b771c2-b79f-4f44-98f2-d24fd25a210b" languageVersion="6" moduleVersion="0">
   <models>
     <modelRoot type="default" contentPath="${module}">
       <sourceRoot location="models" />

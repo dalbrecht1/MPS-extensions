@@ -132,6 +132,12 @@
       <concept id="7915817776605258993" name="com.mbeddr.mpsutil.blutil.structure.SelectWithIndexOperation" flags="ng" index="2kBsqy" />
       <concept id="5842252078326680676" name="com.mbeddr.mpsutil.blutil.structure.GroupByOperation" flags="ng" index="2pSdkF" />
       <concept id="7488777117048605758" name="com.mbeddr.mpsutil.blutil.structure.ZipOperation" flags="ng" index="Kbfsy" />
+      <concept id="2751518233990321717" name="com.mbeddr.mpsutil.blutil.structure.ScopeFunctionOperation" flags="ng" index="1kbSPO">
+        <child id="2751518233990321719" name="closure" index="1kbSPQ" />
+      </concept>
+      <concept id="2751518233990321721" name="com.mbeddr.mpsutil.blutil.structure.ApplyScopeFunctionOperation" flags="ng" index="1kbSPS" />
+      <concept id="2751518233990321724" name="com.mbeddr.mpsutil.blutil.structure.LetScopeFunctionOperation" flags="ng" index="1kbSPX" />
+      <concept id="5566040892496752333" name="com.mbeddr.mpsutil.blutil.structure.SmartAtomicClosureParameterDeclaration" flags="ng" index="3nFU9Y" />
       <concept id="8919968723020343837" name="com.mbeddr.mpsutil.blutil.structure.ForEachWithIndexOperation" flags="ng" index="1sWJ9m" />
       <concept id="8919968723020245069" name="com.mbeddr.mpsutil.blutil.structure.WhereWithIndexOperation" flags="ng" index="1sZn06" />
       <concept id="578371460444482140" name="com.mbeddr.mpsutil.blutil.structure.ElvisOperation" flags="ng" index="1w0Eer" />
@@ -141,14 +147,6 @@
         <child id="1199569906740" name="parameter" index="1bW2Oz" />
         <child id="1199569916463" name="body" index="1bW5cS" />
       </concept>
-    </language>
-    <language id="52b771c2-b79f-4f44-98f2-d24fd25a210b" name="de.itemis.mps.baseLanguageExtensions">
-      <concept id="2751518233990321717" name="de.itemis.mps.baseLanguageExtensions.structure.ScopeFunctionOperation" flags="ng" index="1kbSPO">
-        <child id="2751518233990321719" name="closure" index="1kbSPQ" />
-      </concept>
-      <concept id="2751518233990321721" name="de.itemis.mps.baseLanguageExtensions.structure.ApplyScopeFunctionOperation" flags="ng" index="1kbSPS" />
-      <concept id="2751518233990321724" name="de.itemis.mps.baseLanguageExtensions.structure.LetScopeFunctionOperation" flags="ng" index="1kbSPX" />
-      <concept id="5566040892496752333" name="de.itemis.mps.baseLanguageExtensions.structure.SmartAtomicClosureParameterDeclaration" flags="ig" index="3nFU9Y" />
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
@@ -1473,7 +1471,7 @@
                         <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String)" resolve="println" />
                         <node concept="17RM3I" id="4OYzbeqCEUj" role="37wK5m">
                           <node concept="37vLTw" id="4OYzbeqCDCt" role="17RM3D">
-                            <ref role="3cqZAo" node="4OYzbeqB09Q" resolve="it" />
+                            <ref role="3cqZAo" node="4OYzbeqB09Q" />
                           </node>
                           <node concept="3cmrfG" id="4OYzbeqCF5s" role="17RM3C">
                             <property role="3cmrfH" value="1" />
@@ -1550,7 +1548,7 @@
                             <node concept="3clFbF" id="4OYzber7CJJ" role="3cqZAp">
                               <node concept="3cpWs3" id="4OYzber7Ee_" role="3clFbG">
                                 <node concept="37vLTw" id="4OYzber7Ef8" role="3uHU7w">
-                                  <ref role="3cqZAo" node="4OYzber0YwM" resolve="outer" />
+                                  <ref role="3cqZAo" node="4OYzber0YwM" />
                                 </node>
                                 <node concept="37vLTw" id="4OYzber7CJI" role="3uHU7B">
                                   <ref role="3cqZAo" node="4OYzber7Czi" resolve="it" />

@@ -496,5 +496,25 @@
     <node concept="22hDWj" id="1Ka$n8$08qe" role="22hAXT" />
     <node concept="2VfDsV" id="1Ka$n8$08qf" role="3ft7WO" />
   </node>
+  <node concept="22mcaB" id="1Ka$n8$1qGG">
+    <ref role="aqKnT" to="pkab:2oJmO5M0doT" resolve="ApplyScopeFunctionOperation_old" />
+    <node concept="22hDWj" id="1Ka$n8$1qGH" role="22hAXT" />
+    <node concept="2VfDsV" id="1Ka$n8$1qGI" role="3ft7WO" />
+  </node>
+  <node concept="22mcaB" id="1Ka$n8$1qGS">
+    <ref role="aqKnT" to="pkab:2oJmO5M0doW" resolve="LetScopeFunctionOperation_old" />
+    <node concept="22hDWj" id="1Ka$n8$1qGT" role="22hAXT" />
+    <node concept="2VfDsV" id="1Ka$n8$1qGU" role="3ft7WO" />
+  </node>
+  <node concept="22mcaB" id="1Ka$n8$1qH4">
+    <ref role="aqKnT" to="pkab:2oJmO5M0doP" resolve="ScopeFunctionOperation_old" />
+    <node concept="22hDWj" id="1Ka$n8$1qH5" role="22hAXT" />
+    <node concept="2VfDsV" id="1Ka$n8$1qH6" role="3ft7WO" />
+  </node>
+  <node concept="22mcaB" id="1Ka$n8$1qHg">
+    <ref role="aqKnT" to="pkab:4OYzbeq$iVd" resolve="SmartAtomicClosureParameterDeclaration_old" />
+    <node concept="22hDWj" id="1Ka$n8$1qHh" role="22hAXT" />
+    <node concept="2VfDsV" id="1Ka$n8$1qHi" role="3ft7WO" />
+  </node>
 </model>
 

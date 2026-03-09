@@ -36,7 +36,6 @@
       </concept>
       <concept id="1071489288298" name="jetbrains.mps.lang.structure.structure.LinkDeclaration" flags="ig" index="1TJgyj">
         <property id="1071599776563" name="role" index="20kJfa" />
-        <property id="1071599893252" name="sourceCardinality" index="20lbJX" />
         <property id="1071599937831" name="metaClass" index="20lmBu" />
         <property id="241647608299431140" name="linkId" index="IQ2ns" />
         <reference id="1071599976176" name="target" index="20lvS9" />
@@ -200,23 +199,29 @@
   <node concept="1TIwiD" id="2oJmO5M0doW">
     <property role="EcuMT" value="2751518233990321724" />
     <property role="3GE5qa" value="scopeFunction" />
-    <property role="TrG5h" value="LetScopeFunctionOperation" />
+    <property role="TrG5h" value="LetScopeFunctionOperation_old" />
     <property role="34LRSv" value="let" />
     <property role="R4oN_" value="select anything from any object/instance" />
     <ref role="1TJDcQ" node="2oJmO5M0doP" resolve="ScopeFunctionOperation" />
+    <node concept="asaX9" id="1Ka$n8$1qGR" role="lGtFl">
+      <property role="YLQ7P" value="The concept was moved to language &quot;com.mbeddr.mpsutil.blutil&quot;" />
+    </node>
   </node>
   <node concept="1TIwiD" id="2oJmO5M0doT">
     <property role="EcuMT" value="2751518233990321721" />
     <property role="3GE5qa" value="scopeFunction" />
-    <property role="TrG5h" value="ApplyScopeFunctionOperation" />
+    <property role="TrG5h" value="ApplyScopeFunctionOperation_old" />
     <property role="34LRSv" value="apply" />
     <property role="R4oN_" value="configure a given object/instance" />
     <ref role="1TJDcQ" node="2oJmO5M0doP" resolve="ScopeFunctionOperation" />
+    <node concept="asaX9" id="1Ka$n8$1qGF" role="lGtFl">
+      <property role="YLQ7P" value="The concept was moved to language &quot;com.mbeddr.mpsutil.blutil&quot;" />
+    </node>
   </node>
   <node concept="1TIwiD" id="2oJmO5M0doP">
     <property role="EcuMT" value="2751518233990321717" />
     <property role="R5$K7" value="true" />
-    <property role="TrG5h" value="ScopeFunctionOperation" />
+    <property role="TrG5h" value="ScopeFunctionOperation_old" />
     <property role="3GE5qa" value="scopeFunction" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="2oJmO5M0doQ" role="PzmwI">
@@ -225,18 +230,26 @@
     <node concept="1TJgyj" id="2oJmO5M0doR" role="1TKVEi">
       <property role="IQ2ns" value="2751518233990321719" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="closure" />
-      <property role="20lbJX" value="fLJekj4/_1" />
+      <property role="20kJfa" value="closure_old" />
       <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+      <node concept="asaX9" id="1Ka$n8$1qHr" role="lGtFl">
+        <property role="YLQ7P" value="The link was moved to concept &quot;com.mbeddr.mpsutil.blutil.structure.ScopeFunctionOperation&quot;" />
+      </node>
+    </node>
+    <node concept="asaX9" id="1Ka$n8$1qH3" role="lGtFl">
+      <property role="YLQ7P" value="The concept was moved to language &quot;com.mbeddr.mpsutil.blutil&quot;" />
     </node>
   </node>
   <node concept="1TIwiD" id="4OYzbeq$iVd">
     <property role="EcuMT" value="5566040892496752333" />
     <property role="3GE5qa" value="scopeFunction" />
-    <property role="TrG5h" value="SmartAtomicClosureParameterDeclaration" />
+    <property role="TrG5h" value="SmartAtomicClosureParameterDeclaration_old" />
     <property role="34LRSv" value="~ &lt;name&gt;" />
     <property role="R4oN_" value="smart closure parameter" />
     <ref role="1TJDcQ" to="tp2q:hwRh6j$" resolve="SmartClosureParameterDeclaration" />
+    <node concept="asaX9" id="1Ka$n8$1qHf" role="lGtFl">
+      <property role="YLQ7P" value="The concept was moved to language &quot;com.mbeddr.mpsutil.blutil&quot;" />
+    </node>
   </node>
 </model>
 

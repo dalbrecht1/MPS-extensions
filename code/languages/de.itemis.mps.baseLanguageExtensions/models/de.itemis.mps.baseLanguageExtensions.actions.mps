@@ -858,7 +858,7 @@
     <property role="TrG5h" value="ScopeFunction_operations" />
     <property role="3GE5qa" value="scopeFunction" />
     <node concept="37WvkG" id="2oJmO5MkuVJ" role="37WGs$">
-      <ref role="37XkoT" to="pkab:2oJmO5M0doT" resolve="ApplyScopeFunctionOperation" />
+      <ref role="37XkoT" to="hba4:2oJmO5M0doT" resolve="ApplyScopeFunctionOperation" />
       <node concept="37Y9Zx" id="2oJmO5MkuVK" role="37ZfLb">
         <node concept="3clFbS" id="2oJmO5MkuVL" role="2VODD2">
           <node concept="3clFbJ" id="2oJmO5MkuWm" role="3cqZAp">
@@ -868,7 +868,7 @@
                   <node concept="2OqwBi" id="2oJmO5MkuWq" role="2Oq$k0">
                     <node concept="1r4Lsj" id="2oJmO5MkuWr" role="2Oq$k0" />
                     <node concept="3TrEf2" id="2oJmO5MkuWs" role="2OqNvi">
-                      <ref role="3Tt5mk" to="pkab:2oJmO5M0doR" resolve="closure" />
+                      <ref role="3Tt5mk" to="hba4:2oJmO5M0doR" resolve="closure" />
                     </node>
                   </node>
                   <node concept="2oxUTD" id="2oJmO5MkuWt" role="2OqNvi">
@@ -909,7 +909,7 @@
                     <node concept="2OqwBi" id="2oJmO5MkuWI" role="33vP2m">
                       <node concept="1r4Lsj" id="2oJmO5MkuWJ" role="2Oq$k0" />
                       <node concept="3TrEf2" id="2oJmO5MkuWK" role="2OqNvi">
-                        <ref role="3Tt5mk" to="pkab:2oJmO5M0doR" resolve="closure" />
+                        <ref role="3Tt5mk" to="hba4:2oJmO5M0doR" resolve="closure" />
                       </node>
                     </node>
                   </node>
@@ -922,7 +922,7 @@
                           <node concept="2OqwBi" id="2oJmO5MkuWQ" role="2Oq$k0">
                             <node concept="1r4Lsj" id="2oJmO5MkuWR" role="2Oq$k0" />
                             <node concept="3TrEf2" id="2oJmO5MkuWS" role="2OqNvi">
-                              <ref role="3Tt5mk" to="pkab:2oJmO5M0doR" resolve="closure" />
+                              <ref role="3Tt5mk" to="hba4:2oJmO5M0doR" resolve="closure" />
                             </node>
                           </node>
                           <node concept="2DeJnY" id="2oJmO5MkuWT" role="2OqNvi">
@@ -946,7 +946,7 @@
                   <node concept="3cpWsn" id="2oJmO5MkuWZ" role="3cpWs9">
                     <property role="TrG5h" value="pd" />
                     <node concept="3Tqbb2" id="2oJmO5MkuX0" role="1tU5fm">
-                      <ref role="ehGHo" to="pkab:4OYzbeq$iVd" resolve="SmartAtomicClosureParameterDeclaration" />
+                      <ref role="ehGHo" to="hba4:4OYzbeq$iVd" resolve="SmartAtomicClosureParameterDeclaration" />
                     </node>
                     <node concept="2OqwBi" id="2oJmO5MkuX1" role="33vP2m">
                       <node concept="2OqwBi" id="2oJmO5MkuX2" role="2Oq$k0">
@@ -963,7 +963,7 @@
                         </node>
                       </node>
                       <node concept="2DeJg1" id="2oJmO5MkuX7" role="2OqNvi">
-                        <ref role="1A0vxQ" to="pkab:4OYzbeq$iVd" resolve="SmartAtomicClosureParameterDeclaration" />
+                        <ref role="1A0vxQ" to="hba4:4OYzbeq$iVd" resolve="SmartAtomicClosureParameterDeclaration" />
                       </node>
                     </node>
                   </node>
@@ -992,7 +992,7 @@
       </node>
     </node>
     <node concept="37WvkG" id="2oJmO5MkuW2" role="37WGs$">
-      <ref role="37XkoT" to="pkab:2oJmO5M0doW" resolve="LetScopeFunctionOperation" />
+      <ref role="37XkoT" to="hba4:2oJmO5M0doW" resolve="LetScopeFunctionOperation" />
       <node concept="37Y9Zx" id="2oJmO5MkuW3" role="37ZfLb">
         <node concept="3clFbS" id="2oJmO5MkuW4" role="2VODD2">
           <node concept="3clFbJ" id="2oJmO5Mkwjy" role="3cqZAp">
@@ -1002,7 +1002,7 @@
                   <node concept="2OqwBi" id="2oJmO5MkwjA" role="2Oq$k0">
                     <node concept="1r4Lsj" id="2oJmO5MkwjB" role="2Oq$k0" />
                     <node concept="3TrEf2" id="2oJmO5MkwjC" role="2OqNvi">
-                      <ref role="3Tt5mk" to="pkab:2oJmO5M0doR" resolve="closure" />
+                      <ref role="3Tt5mk" to="hba4:2oJmO5M0doR" resolve="closure" />
                     </node>
                   </node>
                   <node concept="2oxUTD" id="2oJmO5MkwjD" role="2OqNvi">
@@ -1043,7 +1043,7 @@
                     <node concept="2OqwBi" id="2oJmO5MkwjU" role="33vP2m">
                       <node concept="1r4Lsj" id="2oJmO5MkwjV" role="2Oq$k0" />
                       <node concept="3TrEf2" id="2oJmO5MkwjW" role="2OqNvi">
-                        <ref role="3Tt5mk" to="pkab:2oJmO5M0doR" resolve="closure" />
+                        <ref role="3Tt5mk" to="hba4:2oJmO5M0doR" resolve="closure" />
                       </node>
                     </node>
                   </node>
@@ -1056,7 +1056,7 @@
                           <node concept="2OqwBi" id="2oJmO5Mkwk2" role="2Oq$k0">
                             <node concept="1r4Lsj" id="2oJmO5Mkwk3" role="2Oq$k0" />
                             <node concept="3TrEf2" id="2oJmO5Mkwk4" role="2OqNvi">
-                              <ref role="3Tt5mk" to="pkab:2oJmO5M0doR" resolve="closure" />
+                              <ref role="3Tt5mk" to="hba4:2oJmO5M0doR" resolve="closure" />
                             </node>
                           </node>
                           <node concept="2DeJnY" id="2oJmO5Mkwk5" role="2OqNvi">
@@ -1080,7 +1080,7 @@
                   <node concept="3cpWsn" id="2oJmO5Mkwkb" role="3cpWs9">
                     <property role="TrG5h" value="pd" />
                     <node concept="3Tqbb2" id="2oJmO5Mkwkc" role="1tU5fm">
-                      <ref role="ehGHo" to="pkab:4OYzbeq$iVd" resolve="SmartAtomicClosureParameterDeclaration" />
+                      <ref role="ehGHo" to="hba4:4OYzbeq$iVd" resolve="SmartAtomicClosureParameterDeclaration" />
                     </node>
                     <node concept="2OqwBi" id="2oJmO5Mkwkd" role="33vP2m">
                       <node concept="2OqwBi" id="2oJmO5Mkwke" role="2Oq$k0">
@@ -1097,7 +1097,7 @@
                         </node>
                       </node>
                       <node concept="2DeJg1" id="2oJmO5Mkwkj" role="2OqNvi">
-                        <ref role="1A0vxQ" to="pkab:4OYzbeq$iVd" resolve="SmartAtomicClosureParameterDeclaration" />
+                        <ref role="1A0vxQ" to="hba4:4OYzbeq$iVd" resolve="SmartAtomicClosureParameterDeclaration" />
                       </node>
                     </node>
                   </node>
