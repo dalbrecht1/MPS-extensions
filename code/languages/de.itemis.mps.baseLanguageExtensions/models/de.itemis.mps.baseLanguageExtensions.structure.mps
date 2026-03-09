@@ -155,11 +155,14 @@
   </node>
   <node concept="1TIwiD" id="54jQkZ8WKL$">
     <property role="EcuMT" value="5842252078326680676" />
-    <property role="TrG5h" value="GroupByOperation" />
+    <property role="TrG5h" value="GroupByOperation_old" />
     <property role="34LRSv" value="groupBy" />
     <property role="R4oN_" value="identify groups of elements" />
     <property role="3GE5qa" value="groupByOperation" />
     <ref role="1TJDcQ" to="tp2q:hy3sC_q" resolve="InternalSequenceOperation" />
+    <node concept="asaX9" id="1Ka$n8zZ2CH" role="lGtFl">
+      <property role="YLQ7P" value="The concept was moved to language &quot;com.mbeddr.mpsutil.blutil&quot;" />
+    </node>
   </node>
   <node concept="1TIwiD" id="7Ja64GBeeCt">
     <property role="EcuMT" value="8919968723020343837" />

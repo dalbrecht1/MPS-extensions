@@ -476,5 +476,10 @@
     <node concept="22hDWj" id="1Ka$n8zY0Qo" role="22hAXT" />
     <node concept="2VfDsV" id="1Ka$n8zY0Qp" role="3ft7WO" />
   </node>
+  <node concept="22mcaB" id="1Ka$n8zZ2CI">
+    <ref role="aqKnT" to="pkab:54jQkZ8WKL$" resolve="GroupByOperation_old" />
+    <node concept="22hDWj" id="1Ka$n8zZ2CJ" role="22hAXT" />
+    <node concept="2VfDsV" id="1Ka$n8zZ2CK" role="3ft7WO" />
+  </node>
 </model>
 

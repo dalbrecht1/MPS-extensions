@@ -410,5 +410,40 @@
       </node>
     </node>
   </node>
+  <node concept="Z5qvL" id="1Ka$n8zZ2CG">
+    <property role="Z5qvQ" value="3" />
+    <property role="TrG5h" value="Migrate_MoveConcept_3" />
+    <property role="1AQGQl" value="Move concept `GroupByOperation` to language `com.mbeddr.mpsutil.blutil`" />
+    <node concept="Z4OXk" id="1Ka$n8zZ2CS" role="Z5rET">
+      <node concept="2pBcaW" id="1Ka$n8zZ2CQ" role="Z5P1v">
+        <property role="2pBcoG" value="5842252078326680676" />
+        <property role="2pBcow" value="r:63a6d225-96f6-404a-a9eb-033dc2f950a1(de.itemis.mps.baseLanguageExtensions.structure)" />
+        <property role="2pBc3U" value="GroupByOperation_old" />
+      </node>
+      <node concept="2pBcaW" id="1Ka$n8zZ2CR" role="Z5P1t">
+        <property role="2pBcoG" value="5842252078326680676" />
+        <property role="2pBcow" value="63e0e566-5131-447e-90e3-12ea330e1a00/r:f5bd2ad9-cd54-4408-b815-07f9f306f074(com.mbeddr.mpsutil.blutil/com.mbeddr.mpsutil.blutil.structure)" />
+        <property role="2pBc3U" value="GroupByOperation" />
+      </node>
+      <node concept="7a1rZ" id="1Ka$n8zZ2CP" role="7agGg">
+        <node concept="2x4n5u" id="1Ka$n8zZ2CL" role="HKsnP">
+          <property role="2x4mPI" value="GroupByOperation_old" />
+          <property role="2x4n5l" value="18dx5ip7h3y3o" />
+          <node concept="2V$Bhx" id="1Ka$n8zZ2CM" role="2x4n5j">
+            <property role="2V$B1T" value="52b771c2-b79f-4f44-98f2-d24fd25a210b" />
+            <property role="2V$B1Q" value="de.itemis.mps.baseLanguageExtensions" />
+          </node>
+        </node>
+        <node concept="2x4n5u" id="1Ka$n8zZ2CN" role="HKsnM">
+          <property role="2x4mPI" value="GroupByOperation" />
+          <property role="2x4n5l" value="18dx5ip7h3y3o" />
+          <node concept="2V$Bhx" id="1Ka$n8zZ2CO" role="2x4n5j">
+            <property role="2V$B1T" value="63e0e566-5131-447e-90e3-12ea330e1a00" />
+            <property role="2V$B1Q" value="com.mbeddr.mpsutil.blutil" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 
