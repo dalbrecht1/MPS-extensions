@@ -65,7 +65,7 @@
   </node>
   <node concept="1TIwiD" id="vJfcQmm5$y">
     <property role="EcuMT" value="571742531387676962" />
-    <property role="TrG5h" value="IntegerRange" />
+    <property role="TrG5h" value="IntegerRange_old" />
     <property role="34LRSv" value="[n..m]" />
     <property role="R4oN_" value="integer range from n to m" />
     <property role="3GE5qa" value="integerRange" />
@@ -73,25 +73,36 @@
     <node concept="1TJgyj" id="vJfcQmma$R" role="1TKVEi">
       <property role="IQ2ns" value="571742531387697463" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="left" />
-      <property role="20lbJX" value="fLJekj4/_1" />
+      <property role="20kJfa" value="left_old" />
       <ref role="20lvS9" node="vJfcQmma$M" resolve="IntegerRangeBound" />
+      <node concept="asaX9" id="1Ka$n8zVJGh" role="lGtFl">
+        <property role="YLQ7P" value="The link was moved to concept &quot;com.mbeddr.mpsutil.blutil.structure.IntegerRange&quot;" />
+      </node>
     </node>
     <node concept="1TJgyj" id="vJfcQmma$S" role="1TKVEi">
       <property role="IQ2ns" value="571742531387697464" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="right" />
+      <property role="20kJfa" value="right_old" />
       <ref role="20lvS9" node="vJfcQmma$M" resolve="IntegerRangeBound" />
+      <node concept="asaX9" id="1Ka$n8zVJGs" role="lGtFl">
+        <property role="YLQ7P" value="The link was moved to concept &quot;com.mbeddr.mpsutil.blutil.structure.IntegerRange&quot;" />
+      </node>
+    </node>
+    <node concept="asaX9" id="1Ka$n8zVJFo" role="lGtFl">
+      <property role="YLQ7P" value="The concept was moved to language &quot;com.mbeddr.mpsutil.blutil&quot;" />
     </node>
   </node>
   <node concept="PlHQZ" id="vJfcQmma$M">
     <property role="EcuMT" value="571742531387697458" />
-    <property role="TrG5h" value="IntegerRangeBound" />
+    <property role="TrG5h" value="IntegerRangeBound_old" />
     <property role="3GE5qa" value="integerRange" />
+    <node concept="asaX9" id="1Ka$n8zVJF$" role="lGtFl">
+      <property role="YLQ7P" value="The concept was moved to language &quot;com.mbeddr.mpsutil.blutil&quot;" />
+    </node>
   </node>
   <node concept="1TIwiD" id="vJfcQmma$O">
     <property role="EcuMT" value="571742531387697460" />
-    <property role="TrG5h" value="IntegerRangeConstantBound" />
+    <property role="TrG5h" value="IntegerRangeConstantBound_old" />
     <property role="R4oN_" value="integer constant bound" />
     <property role="3GE5qa" value="integerRange" />
     <node concept="PrWs8" id="6vHuLLnBZL$" role="PzmwI">
@@ -99,25 +110,36 @@
     </node>
     <node concept="1TJgyi" id="6vHuLLnCAgc" role="1TKVEl">
       <property role="IQ2nx" value="7488777117046563852" />
-      <property role="TrG5h" value="value" />
+      <property role="TrG5h" value="value_old" />
       <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+      <node concept="asaX9" id="1Ka$n8zVJG6" role="lGtFl">
+        <property role="YLQ7P" value="The property was moved to concept &quot;com.mbeddr.mpsutil.blutil.structure.IntegerRangeConstantBound&quot;" />
+      </node>
+    </node>
+    <node concept="asaX9" id="1Ka$n8zVJFK" role="lGtFl">
+      <property role="YLQ7P" value="The concept was moved to language &quot;com.mbeddr.mpsutil.blutil&quot;" />
     </node>
   </node>
   <node concept="1TIwiD" id="vJfcQmma$P">
     <property role="EcuMT" value="571742531387697461" />
-    <property role="TrG5h" value="IntegerRangeExpressionBound" />
+    <property role="TrG5h" value="IntegerRangeExpressionBound_old" />
     <property role="34LRSv" value="#" />
     <property role="3GE5qa" value="integerRange" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="vJfcQmma$Q" role="1TKVEi">
       <property role="IQ2ns" value="571742531387697462" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="expression" />
-      <property role="20lbJX" value="fLJekj4/_1" />
+      <property role="20kJfa" value="expression_old" />
       <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+      <node concept="asaX9" id="1Ka$n8zVJGB" role="lGtFl">
+        <property role="YLQ7P" value="The link was moved to concept &quot;com.mbeddr.mpsutil.blutil.structure.IntegerRangeExpressionBound&quot;" />
+      </node>
     </node>
     <node concept="PrWs8" id="6vHuLLnBZL_" role="PzmwI">
       <ref role="PrY4T" node="vJfcQmma$M" resolve="IntegerRangeBound" />
+    </node>
+    <node concept="asaX9" id="1Ka$n8zVJFU" role="lGtFl">
+      <property role="YLQ7P" value="The concept was moved to language &quot;com.mbeddr.mpsutil.blutil&quot;" />
     </node>
   </node>
   <node concept="1TIwiD" id="6vHuLLnKoKY">

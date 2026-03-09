@@ -5,6 +5,8 @@
     <use id="13744753-c81f-424a-9c1b-cf8943bf4e86" name="jetbrains.mps.lang.sharedConcepts" version="0" />
     <use id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem" version="5" />
     <use id="3f4bc5f5-c6c1-4a28-8b10-c83066ffa4a1" name="jetbrains.mps.lang.constraints" version="6" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="12" />
+    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="19" />
     <devkit ref="00000000-0000-4000-0000-5604ebd4f22c(jetbrains.mps.devkit.aspect.constraints)" />
   </languages>
   <imports>
@@ -1354,6 +1356,24 @@
         <node concept="3cpWs6" id="7zYevsNC5dY" role="3cqZAp">
           <node concept="3clFbT" id="7zYevsNC5f$" role="3cqZAk">
             <property role="3clFbU" value="true" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="vJfcQmmcil">
+    <property role="3GE5qa" value="integerRange" />
+    <ref role="1M2myG" to="hba4:vJfcQmma$M" resolve="IntegerRangeBound" />
+    <node concept="9S07l" id="vJfcQmmcim" role="9Vyp8">
+      <node concept="3clFbS" id="vJfcQmmcin" role="2VODD2">
+        <node concept="3clFbF" id="vJfcQmmcnd" role="3cqZAp">
+          <node concept="2OqwBi" id="vJfcQmmcAz" role="3clFbG">
+            <node concept="nLn13" id="vJfcQmmcnc" role="2Oq$k0" />
+            <node concept="1mIQ4w" id="vJfcQmmcNB" role="2OqNvi">
+              <node concept="chp4Y" id="vJfcQmmcQ7" role="cj9EA">
+                <ref role="cht4Q" to="hba4:vJfcQmm5$y" resolve="IntegerRange" />
+              </node>
+            </node>
           </node>
         </node>
       </node>

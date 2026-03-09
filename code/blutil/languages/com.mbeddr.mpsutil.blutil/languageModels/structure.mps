@@ -13,7 +13,7 @@
     <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" />
     <import index="tp25" ref="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" />
     <import index="pkab" ref="r:63a6d225-96f6-404a-a9eb-033dc2f950a1(de.itemis.mps.baseLanguageExtensions.structure)" />
-    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
+    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
   </imports>
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
@@ -1087,6 +1087,63 @@
     <property role="R4oN_" value="elvis operation" />
     <property role="3GE5qa" value="elvisOperation" />
     <ref role="1TJDcQ" to="tpee:fJuHJVf" resolve="BinaryOperation" />
+  </node>
+  <node concept="1TIwiD" id="vJfcQmm5$y">
+    <property role="EcuMT" value="571742531387676962" />
+    <property role="TrG5h" value="IntegerRange" />
+    <property role="34LRSv" value="[n..m]" />
+    <property role="R4oN_" value="integer range from n to m" />
+    <property role="3GE5qa" value="integerRange" />
+    <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
+    <node concept="1TJgyj" id="vJfcQmma$R" role="1TKVEi">
+      <property role="IQ2ns" value="571742531387697463" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="left" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="vJfcQmma$M" resolve="IntegerRangeBound" />
+    </node>
+    <node concept="1TJgyj" id="vJfcQmma$S" role="1TKVEi">
+      <property role="IQ2ns" value="571742531387697464" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="right" />
+      <ref role="20lvS9" node="vJfcQmma$M" resolve="IntegerRangeBound" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="vJfcQmma$M">
+    <property role="EcuMT" value="571742531387697458" />
+    <property role="TrG5h" value="IntegerRangeBound" />
+    <property role="3GE5qa" value="integerRange" />
+  </node>
+  <node concept="1TIwiD" id="vJfcQmma$O">
+    <property role="EcuMT" value="571742531387697460" />
+    <property role="TrG5h" value="IntegerRangeConstantBound" />
+    <property role="R4oN_" value="integer constant bound" />
+    <property role="3GE5qa" value="integerRange" />
+    <node concept="PrWs8" id="6vHuLLnBZL$" role="PzmwI">
+      <ref role="PrY4T" node="vJfcQmma$M" resolve="IntegerRangeBound" />
+    </node>
+    <node concept="1TJgyi" id="6vHuLLnCAgc" role="1TKVEl">
+      <property role="IQ2nx" value="7488777117046563852" />
+      <property role="TrG5h" value="value" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="vJfcQmma$P">
+    <property role="EcuMT" value="571742531387697461" />
+    <property role="TrG5h" value="IntegerRangeExpressionBound" />
+    <property role="34LRSv" value="#" />
+    <property role="3GE5qa" value="integerRange" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="vJfcQmma$Q" role="1TKVEi">
+      <property role="IQ2ns" value="571742531387697462" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="expression" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+    </node>
+    <node concept="PrWs8" id="6vHuLLnBZL_" role="PzmwI">
+      <ref role="PrY4T" node="vJfcQmma$M" resolve="IntegerRangeBound" />
+    </node>
   </node>
 </model>
 

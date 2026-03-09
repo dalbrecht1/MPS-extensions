@@ -119,6 +119,16 @@
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
     </language>
     <language id="63e0e566-5131-447e-90e3-12ea330e1a00" name="com.mbeddr.mpsutil.blutil">
+      <concept id="571742531387676962" name="com.mbeddr.mpsutil.blutil.structure.IntegerRange" flags="ng" index="2hHQnJ">
+        <child id="571742531387697464" name="right" index="2hHTnP" />
+        <child id="571742531387697463" name="left" index="2hHTnU" />
+      </concept>
+      <concept id="571742531387697461" name="com.mbeddr.mpsutil.blutil.structure.IntegerRangeExpressionBound" flags="ng" index="2hHTnS">
+        <child id="571742531387697462" name="expression" index="2hHTnV" />
+      </concept>
+      <concept id="571742531387697460" name="com.mbeddr.mpsutil.blutil.structure.IntegerRangeConstantBound" flags="ng" index="2hHTnT">
+        <property id="7488777117046563852" name="value" index="KjLWg" />
+      </concept>
       <concept id="578371460444482140" name="com.mbeddr.mpsutil.blutil.structure.ElvisOperation" flags="ng" index="1w0Eer" />
     </language>
     <language id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures">
@@ -128,16 +138,6 @@
       </concept>
     </language>
     <language id="52b771c2-b79f-4f44-98f2-d24fd25a210b" name="de.itemis.mps.baseLanguageExtensions">
-      <concept id="571742531387676962" name="de.itemis.mps.baseLanguageExtensions.structure.IntegerRange" flags="ng" index="2hHQnJ">
-        <child id="571742531387697464" name="right" index="2hHTnP" />
-        <child id="571742531387697463" name="left" index="2hHTnU" />
-      </concept>
-      <concept id="571742531387697461" name="de.itemis.mps.baseLanguageExtensions.structure.IntegerRangeExpressionBound" flags="ng" index="2hHTnS">
-        <child id="571742531387697462" name="expression" index="2hHTnV" />
-      </concept>
-      <concept id="571742531387697460" name="de.itemis.mps.baseLanguageExtensions.structure.IntegerRangeConstantBound" flags="ng" index="2hHTnT">
-        <property id="7488777117046563852" name="value" index="KjLWg" />
-      </concept>
       <concept id="7915817776605258993" name="de.itemis.mps.baseLanguageExtensions.structure.SelectWithIndexOperation" flags="ng" index="2kBsqy" />
       <concept id="5842252078326680676" name="de.itemis.mps.baseLanguageExtensions.structure.GroupByOperation" flags="ng" index="2pSdkF" />
       <concept id="7488777117048605758" name="de.itemis.mps.baseLanguageExtensions.structure.ZipOperation" flags="ng" index="Kbfsy" />
