@@ -8,8 +8,8 @@
     <use id="c7fb639f-be78-4307-89b0-b5959c3fa8c8" name="jetbrains.mps.lang.text" version="0" />
   </languages>
   <imports>
-    <import index="96gm" ref="r:2eaed950-3bc1-47cd-9b02-e917ff994d7c(de.itemis.mps.baseLanguageExtensions.runtime)" />
     <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" />
+    <import index="c7am" ref="r:12204b0d-02bb-4cb9-a382-5c475719cc1d(com.mbeddr.mpsutil.blutil.rt.operations)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
   </imports>
   <registry>
@@ -271,18 +271,18 @@
                 <ref role="3uigEE" to="wyt6:~String" resolve="String" />
               </node>
               <node concept="2OqwBi" id="2oJmO5LY9$x" role="33vP2m">
-                <node concept="2YIFZM" id="2oJmO5LY9$y" role="2Oq$k0">
-                  <ref role="37wK5l" to="96gm:2oJmO5LUek_" resolve="apply" />
-                  <ref role="1Pybhc" to="96gm:2oJmO5LUej2" resolve="ScopeFunctionUtil" />
-                  <node concept="2YIFZM" id="2oJmO5LZ6v4" role="37wK5m">
-                    <ref role="37wK5l" to="96gm:2oJmO5LUek_" resolve="apply" />
-                    <ref role="1Pybhc" to="96gm:2oJmO5LUej2" resolve="ScopeFunctionUtil" />
-                    <node concept="2YIFZM" id="2oJmO5LZ6v5" role="37wK5m">
-                      <ref role="37wK5l" to="96gm:2oJmO5LUek_" resolve="apply" />
-                      <ref role="1Pybhc" to="96gm:2oJmO5LUej2" resolve="ScopeFunctionUtil" />
-                      <node concept="2YIFZM" id="2oJmO5LZ6v6" role="37wK5m">
-                        <ref role="37wK5l" to="96gm:2oJmO5LUek_" resolve="apply" />
-                        <ref role="1Pybhc" to="96gm:2oJmO5LUej2" resolve="ScopeFunctionUtil" />
+                <node concept="2YIFZM" id="1Ka$n8$8feP" role="2Oq$k0">
+                  <ref role="37wK5l" to="c7am:2oJmO5LUek_" resolve="apply" />
+                  <ref role="1Pybhc" to="c7am:2oJmO5LUej2" resolve="ScopeFunctionUtil" />
+                  <node concept="2YIFZM" id="1Ka$n8$8feQ" role="37wK5m">
+                    <ref role="37wK5l" to="c7am:2oJmO5LUek_" resolve="apply" />
+                    <ref role="1Pybhc" to="c7am:2oJmO5LUej2" resolve="ScopeFunctionUtil" />
+                    <node concept="2YIFZM" id="1Ka$n8$8feR" role="37wK5m">
+                      <ref role="37wK5l" to="c7am:2oJmO5LUek_" resolve="apply" />
+                      <ref role="1Pybhc" to="c7am:2oJmO5LUej2" resolve="ScopeFunctionUtil" />
+                      <node concept="2YIFZM" id="1Ka$n8$8feS" role="37wK5m">
+                        <ref role="37wK5l" to="c7am:2oJmO5LUek_" resolve="apply" />
+                        <ref role="1Pybhc" to="c7am:2oJmO5LUej2" resolve="ScopeFunctionUtil" />
                         <node concept="2ShNRf" id="2oJmO5LZ6v7" role="37wK5m">
                           <node concept="1pGfFk" id="2oJmO5LZ6v8" role="2ShVmc">
                             <property role="373rjd" value="true" />
@@ -557,18 +557,18 @@
                 <ref role="3uigEE" to="wyt6:~String" resolve="String" />
               </node>
               <node concept="2OqwBi" id="2oJmO5LZ9VJ" role="33vP2m">
-                <node concept="2YIFZM" id="2oJmO5LZaNv" role="2Oq$k0">
-                  <ref role="37wK5l" to="96gm:2oJmO5LUeQ4" resolve="let" />
-                  <ref role="1Pybhc" to="96gm:2oJmO5LUej2" resolve="ScopeFunctionUtil" />
-                  <node concept="2YIFZM" id="2oJmO5LZbz8" role="37wK5m">
-                    <ref role="37wK5l" to="96gm:2oJmO5LUeQ4" resolve="let" />
-                    <ref role="1Pybhc" to="96gm:2oJmO5LUej2" resolve="ScopeFunctionUtil" />
-                    <node concept="2YIFZM" id="2oJmO5LZbz9" role="37wK5m">
-                      <ref role="37wK5l" to="96gm:2oJmO5LUeQ4" resolve="let" />
-                      <ref role="1Pybhc" to="96gm:2oJmO5LUej2" resolve="ScopeFunctionUtil" />
-                      <node concept="2YIFZM" id="2oJmO5LZbMV" role="37wK5m">
-                        <ref role="37wK5l" to="96gm:2oJmO5LUeQ4" resolve="let" />
-                        <ref role="1Pybhc" to="96gm:2oJmO5LUej2" resolve="ScopeFunctionUtil" />
+                <node concept="2YIFZM" id="1Ka$n8$8feX" role="2Oq$k0">
+                  <ref role="37wK5l" to="c7am:2oJmO5LUeQ4" resolve="let" />
+                  <ref role="1Pybhc" to="c7am:2oJmO5LUej2" resolve="ScopeFunctionUtil" />
+                  <node concept="2YIFZM" id="1Ka$n8$8feY" role="37wK5m">
+                    <ref role="37wK5l" to="c7am:2oJmO5LUeQ4" resolve="let" />
+                    <ref role="1Pybhc" to="c7am:2oJmO5LUej2" resolve="ScopeFunctionUtil" />
+                    <node concept="2YIFZM" id="1Ka$n8$8feZ" role="37wK5m">
+                      <ref role="37wK5l" to="c7am:2oJmO5LUeQ4" resolve="let" />
+                      <ref role="1Pybhc" to="c7am:2oJmO5LUej2" resolve="ScopeFunctionUtil" />
+                      <node concept="2YIFZM" id="1Ka$n8$8ff0" role="37wK5m">
+                        <ref role="37wK5l" to="c7am:2oJmO5LUeQ4" resolve="let" />
+                        <ref role="1Pybhc" to="c7am:2oJmO5LUej2" resolve="ScopeFunctionUtil" />
                         <node concept="2ShNRf" id="2oJmO5LZbMW" role="37wK5m">
                           <node concept="1pGfFk" id="2oJmO5LZbMX" role="2ShVmc">
                             <property role="373rjd" value="true" />
@@ -754,12 +754,12 @@
               <node concept="3uibUv" id="2oJmO5LYbee" role="1tU5fm">
                 <ref role="3uigEE" to="guwi:~PrintStream" resolve="PrintStream" />
               </node>
-              <node concept="2YIFZM" id="2oJmO5LZ1Aw" role="33vP2m">
-                <ref role="37wK5l" to="96gm:2oJmO5LXrKn" resolve="applyVoid" />
-                <ref role="1Pybhc" to="96gm:2oJmO5LUej2" resolve="ScopeFunctionUtil" />
-                <node concept="2YIFZM" id="2oJmO5LZgUj" role="37wK5m">
-                  <ref role="37wK5l" to="96gm:2oJmO5LXrKn" resolve="applyVoid" />
-                  <ref role="1Pybhc" to="96gm:2oJmO5LUej2" resolve="ScopeFunctionUtil" />
+              <node concept="2YIFZM" id="1Ka$n8$8feU" role="33vP2m">
+                <ref role="37wK5l" to="c7am:2oJmO5LXrKn" resolve="applyVoid" />
+                <ref role="1Pybhc" to="c7am:2oJmO5LUej2" resolve="ScopeFunctionUtil" />
+                <node concept="2YIFZM" id="1Ka$n8$8feV" role="37wK5m">
+                  <ref role="37wK5l" to="c7am:2oJmO5LXrKn" resolve="applyVoid" />
+                  <ref role="1Pybhc" to="c7am:2oJmO5LUej2" resolve="ScopeFunctionUtil" />
                   <node concept="10M0yZ" id="2oJmO5LZgUk" role="37wK5m">
                     <ref role="3cqZAo" to="wyt6:~System.out" resolve="out" />
                     <ref role="1PxDUh" to="wyt6:~System" resolve="System" />

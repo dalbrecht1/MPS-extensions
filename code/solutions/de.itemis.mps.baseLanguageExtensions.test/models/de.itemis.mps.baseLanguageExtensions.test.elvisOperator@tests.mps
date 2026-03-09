@@ -7,8 +7,8 @@
     <use id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures" version="0" />
   </languages>
   <imports>
-    <import index="96gm" ref="r:2eaed950-3bc1-47cd-9b02-e917ff994d7c(de.itemis.mps.baseLanguageExtensions.runtime)" />
     <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" />
+    <import index="c7am" ref="r:12204b0d-02bb-4cb9-a382-5c475719cc1d(com.mbeddr.mpsutil.blutil.rt.operations)" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -152,9 +152,9 @@
           </node>
           <node concept="3clFbH" id="w6MstBY9t3" role="3cqZAp" />
           <node concept="3clFbF" id="w6MstBY9tN" role="3cqZAp">
-            <node concept="2YIFZM" id="w6MstBY9BY" role="3clFbG">
-              <ref role="37wK5l" to="96gm:w6MstBXHAP" resolve="apply" />
-              <ref role="1Pybhc" to="96gm:w6MstBXH_b" resolve="ElvisOperationUtil" />
+            <node concept="2YIFZM" id="1Ka$n8$8feD" role="3clFbG">
+              <ref role="37wK5l" to="c7am:w6MstBXHAP" resolve="apply" />
+              <ref role="1Pybhc" to="c7am:w6MstBXH_b" resolve="ElvisOperationUtil" />
               <node concept="37vLTw" id="w6MstBY9Cm" role="37wK5m">
                 <ref role="3cqZAo" node="w6MstBY8gf" resolve="lhs" />
               </node>
@@ -219,9 +219,9 @@
           </node>
           <node concept="3clFbH" id="w6MstBYfBT" role="3cqZAp" />
           <node concept="3clFbF" id="w6MstBYfCs" role="3cqZAp">
-            <node concept="2YIFZM" id="w6MstBYfCR" role="3clFbG">
-              <ref role="37wK5l" to="96gm:w6MstBXHAP" resolve="apply" />
-              <ref role="1Pybhc" to="96gm:w6MstBXH_b" resolve="ElvisOperationUtil" />
+            <node concept="2YIFZM" id="1Ka$n8$8feE" role="3clFbG">
+              <ref role="37wK5l" to="c7am:w6MstBXHAP" resolve="apply" />
+              <ref role="1Pybhc" to="c7am:w6MstBXH_b" resolve="ElvisOperationUtil" />
               <node concept="37vLTw" id="w6MstBYfTz" role="37wK5m">
                 <ref role="3cqZAo" node="w6MstBYfiv" resolve="lhs" />
               </node>
@@ -260,9 +260,9 @@
               <node concept="3uibUv" id="w6MstBYIUN" role="1tU5fm">
                 <ref role="3uigEE" to="guwi:~Serializable" resolve="Serializable" />
               </node>
-              <node concept="2YIFZM" id="w6MstBYMFS" role="33vP2m">
-                <ref role="37wK5l" to="96gm:w6MstBXHAP" resolve="apply" />
-                <ref role="1Pybhc" to="96gm:w6MstBXH_b" resolve="ElvisOperationUtil" />
+              <node concept="2YIFZM" id="1Ka$n8$8feF" role="33vP2m">
+                <ref role="37wK5l" to="c7am:w6MstBXHAP" resolve="apply" />
+                <ref role="1Pybhc" to="c7am:w6MstBXH_b" resolve="ElvisOperationUtil" />
                 <node concept="37vLTw" id="w6MstBYMGC" role="37wK5m">
                   <ref role="3cqZAo" node="w6MstBYIJH" resolve="lhs" />
                 </node>
@@ -308,9 +308,9 @@
             <node concept="3cpWsn" id="w6MstBYUyp" role="3cpWs9">
               <property role="TrG5h" value="actual" />
               <node concept="17QB3L" id="w6MstBYUyk" role="1tU5fm" />
-              <node concept="2YIFZM" id="w6MstBYUzH" role="33vP2m">
-                <ref role="37wK5l" to="96gm:w6MstBXHAP" resolve="apply" />
-                <ref role="1Pybhc" to="96gm:w6MstBXH_b" resolve="ElvisOperationUtil" />
+              <node concept="2YIFZM" id="1Ka$n8$8feG" role="33vP2m">
+                <ref role="37wK5l" to="c7am:w6MstBXHAP" resolve="apply" />
+                <ref role="1Pybhc" to="c7am:w6MstBXH_b" resolve="ElvisOperationUtil" />
                 <node concept="37vLTw" id="w6MstBYUON" role="37wK5m">
                   <ref role="3cqZAo" node="w6MstBYTrY" resolve="lhs" />
                 </node>

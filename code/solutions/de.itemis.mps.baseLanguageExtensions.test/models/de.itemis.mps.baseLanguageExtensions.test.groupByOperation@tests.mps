@@ -9,7 +9,7 @@
   </languages>
   <imports>
     <import index="urs3" ref="r:fc76aa36-3cff-41c7-b94b-eee0e8341932(jetbrains.mps.internal.collections.runtime)" />
-    <import index="96gm" ref="r:2eaed950-3bc1-47cd-9b02-e917ff994d7c(de.itemis.mps.baseLanguageExtensions.runtime)" />
+    <import index="c7am" ref="r:12204b0d-02bb-4cb9-a382-5c475719cc1d(com.mbeddr.mpsutil.blutil.rt.operations)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
   </imports>
   <registry>
@@ -167,9 +167,9 @@
           <node concept="3cpWs8" id="54jQkZ8TU_b" role="3cqZAp">
             <node concept="3cpWsn" id="54jQkZ8TU_c" role="3cpWs9">
               <property role="TrG5h" value="actual" />
-              <node concept="2YIFZM" id="54jQkZ8TW8k" role="33vP2m">
-                <ref role="37wK5l" to="96gm:54jQkZ8QoHD" resolve="apply" />
-                <ref role="1Pybhc" to="96gm:54jQkZ8QoGe" resolve="GroupByOperationUtil" />
+              <node concept="2YIFZM" id="1Ka$n8$8feI" role="33vP2m">
+                <ref role="37wK5l" to="c7am:54jQkZ8QoHD" resolve="apply" />
+                <ref role="1Pybhc" to="c7am:54jQkZ8QoGe" resolve="GroupByOperationUtil" />
                 <node concept="37vLTw" id="54jQkZ8TWqj" role="37wK5m">
                   <ref role="3cqZAo" node="54jQkZ8TLD3" resolve="elements" />
                 </node>
@@ -249,9 +249,9 @@
           <node concept="3cpWs8" id="54jQkZ8UZzI" role="3cqZAp">
             <node concept="3cpWsn" id="54jQkZ8UZzJ" role="3cpWs9">
               <property role="TrG5h" value="actual" />
-              <node concept="2YIFZM" id="54jQkZ8UZzL" role="33vP2m">
-                <ref role="37wK5l" to="96gm:54jQkZ8QoHD" resolve="apply" />
-                <ref role="1Pybhc" to="96gm:54jQkZ8QoGe" resolve="GroupByOperationUtil" />
+              <node concept="2YIFZM" id="1Ka$n8$8feJ" role="33vP2m">
+                <ref role="37wK5l" to="c7am:54jQkZ8QoHD" resolve="apply" />
+                <ref role="1Pybhc" to="c7am:54jQkZ8QoGe" resolve="GroupByOperationUtil" />
                 <node concept="37vLTw" id="54jQkZ8UZzM" role="37wK5m">
                   <ref role="3cqZAo" node="54jQkZ8UZz_" resolve="elements" />
                 </node>
@@ -288,8 +288,8 @@
               <node concept="2es0OD" id="4OYzbeqKpIp" role="2OqNvi">
                 <node concept="1rXfSq" id="4OYzbeqKpIq" role="23t8la">
                   <ref role="37wK5l" node="54jQkZ8VWA9" resolve="valueCountMatcher" />
-                  <node concept="3cmrfG" id="4OYzbeqKpIr" role="37wK5m">
-                    <property role="3cmrfH" value="1" />
+                  <node concept="3cmrfG" id="1Ka$n8$anZ4" role="37wK5m">
+                    <property role="3cmrfH" value="2" />
                   </node>
                 </node>
               </node>

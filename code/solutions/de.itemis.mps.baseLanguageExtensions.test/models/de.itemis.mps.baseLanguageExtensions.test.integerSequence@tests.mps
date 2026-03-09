@@ -7,7 +7,7 @@
     <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="1" />
   </languages>
   <imports>
-    <import index="96gm" ref="r:2eaed950-3bc1-47cd-9b02-e917ff994d7c(de.itemis.mps.baseLanguageExtensions.runtime)" />
+    <import index="c7am" ref="r:12204b0d-02bb-4cb9-a382-5c475719cc1d(com.mbeddr.mpsutil.blutil.rt.operations)" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -144,9 +144,9 @@
               <node concept="A3Dl8" id="vJfcQmh6PJ" role="1tU5fm">
                 <node concept="10Oyi0" id="vJfcQmh6PK" role="A3Ik2" />
               </node>
-              <node concept="2YIFZM" id="vJfcQmh6PL" role="33vP2m">
-                <ref role="37wK5l" to="96gm:vJfcQmguHw" resolve="range" />
-                <ref role="1Pybhc" to="96gm:vJfcQmguGr" resolve="IntegerSequence" />
+              <node concept="2YIFZM" id="1Ka$n8$8feK" role="33vP2m">
+                <ref role="37wK5l" to="c7am:vJfcQmguHw" resolve="range" />
+                <ref role="1Pybhc" to="c7am:vJfcQmguGr" resolve="IntegerSequence" />
                 <node concept="3cmrfG" id="vJfcQmh6PM" role="37wK5m">
                   <property role="3cmrfH" value="1" />
                 </node>
@@ -193,9 +193,9 @@
               <node concept="A3Dl8" id="vJfcQmh9nP" role="1tU5fm">
                 <node concept="10Oyi0" id="vJfcQmh9nS" role="A3Ik2" />
               </node>
-              <node concept="2YIFZM" id="vJfcQmh9nZ" role="33vP2m">
-                <ref role="37wK5l" to="96gm:vJfcQmgyHy" resolve="range" />
-                <ref role="1Pybhc" to="96gm:vJfcQmguGr" resolve="IntegerSequence" />
+              <node concept="2YIFZM" id="1Ka$n8$8feN" role="33vP2m">
+                <ref role="37wK5l" to="c7am:vJfcQmgyHy" resolve="range" />
+                <ref role="1Pybhc" to="c7am:vJfcQmguGr" resolve="IntegerSequence" />
                 <node concept="3cmrfG" id="vJfcQmh9o0" role="37wK5m">
                   <property role="3cmrfH" value="0" />
                 </node>
@@ -244,9 +244,9 @@
         <node concept="3clFbS" id="vJfcQmm4Jz" role="3clF47">
           <node concept="3vwNmj" id="6vHuLLnDA9b" role="3cqZAp">
             <node concept="2OqwBi" id="6vHuLLnDAgR" role="3vwVQn">
-              <node concept="2YIFZM" id="vJfcQmm4V7" role="2Oq$k0">
-                <ref role="37wK5l" to="96gm:vJfcQmguHw" resolve="range" />
-                <ref role="1Pybhc" to="96gm:vJfcQmguGr" resolve="IntegerSequence" />
+              <node concept="2YIFZM" id="1Ka$n8$8feL" role="2Oq$k0">
+                <ref role="37wK5l" to="c7am:vJfcQmguHw" resolve="range" />
+                <ref role="1Pybhc" to="c7am:vJfcQmguGr" resolve="IntegerSequence" />
                 <node concept="3cmrfG" id="vJfcQmm4V8" role="37wK5m">
                   <property role="3cmrfH" value="10" />
                 </node>
