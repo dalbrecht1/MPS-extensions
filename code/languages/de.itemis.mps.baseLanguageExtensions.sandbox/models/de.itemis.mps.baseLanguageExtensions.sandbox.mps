@@ -129,6 +129,7 @@
       <concept id="571742531387697460" name="com.mbeddr.mpsutil.blutil.structure.IntegerRangeConstantBound" flags="ng" index="2hHTnT">
         <property id="7488777117046563852" name="value" index="KjLWg" />
       </concept>
+      <concept id="7488777117048605758" name="com.mbeddr.mpsutil.blutil.structure.ZipOperation" flags="ng" index="Kbfsy" />
       <concept id="578371460444482140" name="com.mbeddr.mpsutil.blutil.structure.ElvisOperation" flags="ng" index="1w0Eer" />
     </language>
     <language id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures">
@@ -140,7 +141,6 @@
     <language id="52b771c2-b79f-4f44-98f2-d24fd25a210b" name="de.itemis.mps.baseLanguageExtensions">
       <concept id="7915817776605258993" name="de.itemis.mps.baseLanguageExtensions.structure.SelectWithIndexOperation" flags="ng" index="2kBsqy" />
       <concept id="5842252078326680676" name="de.itemis.mps.baseLanguageExtensions.structure.GroupByOperation" flags="ng" index="2pSdkF" />
-      <concept id="7488777117048605758" name="de.itemis.mps.baseLanguageExtensions.structure.ZipOperation" flags="ng" index="Kbfsy" />
       <concept id="2751518233990321717" name="de.itemis.mps.baseLanguageExtensions.structure.ScopeFunctionOperation" flags="ng" index="1kbSPO">
         <child id="2751518233990321719" name="closure" index="1kbSPQ" />
       </concept>

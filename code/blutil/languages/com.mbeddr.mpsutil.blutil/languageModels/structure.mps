@@ -1145,5 +1145,13 @@
       <ref role="PrY4T" node="vJfcQmma$M" resolve="IntegerRangeBound" />
     </node>
   </node>
+  <node concept="1TIwiD" id="6vHuLLnKoKY">
+    <property role="EcuMT" value="7488777117048605758" />
+    <property role="TrG5h" value="ZipOperation" />
+    <property role="34LRSv" value="zip" />
+    <property role="R4oN_" value="maps a tuple of sequences into a sequence of tuples" />
+    <property role="3GE5qa" value="zipOperation" />
+    <ref role="1TJDcQ" to="tp2q:h856pF2" resolve="BinaryOperation" />
+  </node>
 </model>
 

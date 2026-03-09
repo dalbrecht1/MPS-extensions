@@ -144,11 +144,14 @@
   </node>
   <node concept="1TIwiD" id="6vHuLLnKoKY">
     <property role="EcuMT" value="7488777117048605758" />
-    <property role="TrG5h" value="ZipOperation" />
+    <property role="TrG5h" value="ZipOperation_old" />
     <property role="34LRSv" value="zip" />
     <property role="R4oN_" value="maps a tuple of sequences into a sequence of tuples" />
     <property role="3GE5qa" value="zipOperation" />
     <ref role="1TJDcQ" to="tp2q:h856pF2" resolve="BinaryOperation" />
+    <node concept="asaX9" id="1Ka$n8zY0Qm" role="lGtFl">
+      <property role="YLQ7P" value="The concept was moved to language &quot;com.mbeddr.mpsutil.blutil&quot;" />
+    </node>
   </node>
   <node concept="1TIwiD" id="54jQkZ8WKL$">
     <property role="EcuMT" value="5842252078326680676" />
