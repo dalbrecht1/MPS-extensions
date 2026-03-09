@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:7cc6600f-236c-4bec-a531-4e3ab8bbf25f(de.itemis.mps.baseLanguageExtensions.test.scopeFunction@tests)">
+<model ref="r:7cc6600f-236c-4bec-a531-4e3ab8bbf25f(de.itemis.mps.blutil.test.scopeFunction@tests)">
   <persistence version="9" />
   <languages>
     <use id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test" version="6" />
