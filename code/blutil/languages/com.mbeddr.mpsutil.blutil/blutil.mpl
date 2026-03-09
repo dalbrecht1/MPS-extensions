@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language namespace="com.mbeddr.mpsutil.blutil" uuid="63e0e566-5131-447e-90e3-12ea330e1a00" languageVersion="3" moduleVersion="0">
   <models>
-    <modelRoot contentPath="${module}" type="default">
+    <modelRoot type="default" contentPath="${module}">
       <sourceRoot location="languageModels" />
     </modelRoot>
   </models>
@@ -36,6 +36,7 @@
         <dependency reexport="false">c72da2b9-7cce-4447-8389-f407dc1158b7(jetbrains.mps.lang.structure)</dependency>
         <dependency reexport="false">9a4afe51-f114-4595-b5df-048ce3c596be(jetbrains.mps.runtime)</dependency>
         <dependency reexport="false">2bdcefec-ba49-4b32-ab50-ebc7a41d5090(jetbrains.mps.lang.smodel#1139186730696)</dependency>
+        <dependency reexport="false">d91eaf6f-a378-467f-9524-0c201ee2e15f(de.itemis.mps.baseLanguageExtensions.runtime)</dependency>
       </dependencies>
       <languageVersions>
         <language slang="l:f3061a53-9226-4cc5-a443-f952ceaf5816:jetbrains.mps.baseLanguage" version="12" />
@@ -67,6 +68,7 @@
         <module reference="63e0e566-5131-447e-90e3-12ea330e1a00(com.mbeddr.mpsutil.blutil)" version="0" />
         <module reference="3a6b9f2f-4402-4ed6-a7cd-12b272b244d5(com.mbeddr.mpsutil.blutil#4354378109086982937)" version="0" />
         <module reference="360a4e25-e902-4667-a0a6-0e971c4f3177(com.mbeddr.mpsutil.blutil.rt)" version="0" />
+        <module reference="d91eaf6f-a378-467f-9524-0c201ee2e15f(de.itemis.mps.baseLanguageExtensions.runtime)" version="0" />
         <module reference="f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)" version="0" />
         <module reference="985c8c6a-64b4-486d-a91e-7d4112742556(jetbrains.mps.baseLanguage#1129914002933)" version="0" />
         <module reference="fd392034-7849-419d-9071-12563d152375(jetbrains.mps.baseLanguage.closures)" version="0" />
@@ -189,7 +191,6 @@
     <module reference="8865b7a8-5271-43d3-884c-6fd1d9cfdd34(MPS.OpenAPI)" version="0" />
     <module reference="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61(MPS.Platform)" version="0" />
     <module reference="63e0e566-5131-447e-90e3-12ea330e1a00(com.mbeddr.mpsutil.blutil)" version="0" />
-    <module reference="52b771c2-b79f-4f44-98f2-d24fd25a210b(de.itemis.mps.baseLanguageExtensions)" version="0" />
     <module reference="848ef45d-e560-4e35-853c-f35a64cc135c(de.itemis.mps.editor.celllayout.runtime)" version="0" />
     <module reference="24c96a96-b7a1-4f30-82da-0f8e279a2661(de.itemis.mps.editor.celllayout.styles)" version="0" />
     <module reference="cce85e64-7b37-4ad5-b0e6-9d18324cdfb3(de.itemis.mps.selection.runtime)" version="0" />
@@ -224,7 +225,6 @@
     <extendedLanguage>ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)</extendedLanguage>
     <extendedLanguage>f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)</extendedLanguage>
     <extendedLanguage>7866978e-a0f0-4cc7-81bc-4d213d9375e1(jetbrains.mps.lang.smodel)</extendedLanguage>
-    <extendedLanguage>52b771c2-b79f-4f44-98f2-d24fd25a210b(de.itemis.mps.baseLanguageExtensions)</extendedLanguage>
   </extendedLanguages>
 </language>
 
