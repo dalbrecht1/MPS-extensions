@@ -129,8 +129,11 @@
       <concept id="571742531387697460" name="com.mbeddr.mpsutil.blutil.structure.IntegerRangeConstantBound" flags="ng" index="2hHTnT">
         <property id="7488777117046563852" name="value" index="KjLWg" />
       </concept>
+      <concept id="7915817776605258993" name="com.mbeddr.mpsutil.blutil.structure.SelectWithIndexOperation" flags="ng" index="2kBsqy" />
       <concept id="5842252078326680676" name="com.mbeddr.mpsutil.blutil.structure.GroupByOperation" flags="ng" index="2pSdkF" />
       <concept id="7488777117048605758" name="com.mbeddr.mpsutil.blutil.structure.ZipOperation" flags="ng" index="Kbfsy" />
+      <concept id="8919968723020343837" name="com.mbeddr.mpsutil.blutil.structure.ForEachWithIndexOperation" flags="ng" index="1sWJ9m" />
+      <concept id="8919968723020245069" name="com.mbeddr.mpsutil.blutil.structure.WhereWithIndexOperation" flags="ng" index="1sZn06" />
       <concept id="578371460444482140" name="com.mbeddr.mpsutil.blutil.structure.ElvisOperation" flags="ng" index="1w0Eer" />
     </language>
     <language id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures">
@@ -140,15 +143,12 @@
       </concept>
     </language>
     <language id="52b771c2-b79f-4f44-98f2-d24fd25a210b" name="de.itemis.mps.baseLanguageExtensions">
-      <concept id="7915817776605258993" name="de.itemis.mps.baseLanguageExtensions.structure.SelectWithIndexOperation" flags="ng" index="2kBsqy" />
       <concept id="2751518233990321717" name="de.itemis.mps.baseLanguageExtensions.structure.ScopeFunctionOperation" flags="ng" index="1kbSPO">
         <child id="2751518233990321719" name="closure" index="1kbSPQ" />
       </concept>
       <concept id="2751518233990321721" name="de.itemis.mps.baseLanguageExtensions.structure.ApplyScopeFunctionOperation" flags="ng" index="1kbSPS" />
       <concept id="2751518233990321724" name="de.itemis.mps.baseLanguageExtensions.structure.LetScopeFunctionOperation" flags="ng" index="1kbSPX" />
       <concept id="5566040892496752333" name="de.itemis.mps.baseLanguageExtensions.structure.SmartAtomicClosureParameterDeclaration" flags="ig" index="3nFU9Y" />
-      <concept id="8919968723020343837" name="de.itemis.mps.baseLanguageExtensions.structure.ForEachWithIndexOperation" flags="ng" index="1sWJ9m" />
-      <concept id="8919968723020245069" name="de.itemis.mps.baseLanguageExtensions.structure.WhereWithIndexOperation" flags="ng" index="1sZn06" />
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">

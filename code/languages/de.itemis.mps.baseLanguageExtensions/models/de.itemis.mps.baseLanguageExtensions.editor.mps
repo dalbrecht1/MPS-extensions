@@ -481,5 +481,20 @@
     <node concept="22hDWj" id="1Ka$n8zZ2CJ" role="22hAXT" />
     <node concept="2VfDsV" id="1Ka$n8zZ2CK" role="3ft7WO" />
   </node>
+  <node concept="22mcaB" id="1Ka$n8$08pP">
+    <ref role="aqKnT" to="pkab:7Ja64GBeeCt" resolve="ForEachWithIndexOperation_old" />
+    <node concept="22hDWj" id="1Ka$n8$08pQ" role="22hAXT" />
+    <node concept="2VfDsV" id="1Ka$n8$08pR" role="3ft7WO" />
+  </node>
+  <node concept="22mcaB" id="1Ka$n8$08q1">
+    <ref role="aqKnT" to="pkab:6RqC_fThQjL" resolve="SelectWithIndexOperation_old" />
+    <node concept="22hDWj" id="1Ka$n8$08q2" role="22hAXT" />
+    <node concept="2VfDsV" id="1Ka$n8$08q3" role="3ft7WO" />
+  </node>
+  <node concept="22mcaB" id="1Ka$n8$08qd">
+    <ref role="aqKnT" to="pkab:7Ja64GBdQxd" resolve="WhereWithIndexOperation_old" />
+    <node concept="22hDWj" id="1Ka$n8$08qe" role="22hAXT" />
+    <node concept="2VfDsV" id="1Ka$n8$08qf" role="3ft7WO" />
+  </node>
 </model>
 

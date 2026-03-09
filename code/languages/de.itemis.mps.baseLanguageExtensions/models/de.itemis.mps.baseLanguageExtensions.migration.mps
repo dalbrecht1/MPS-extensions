@@ -445,5 +445,100 @@
       </node>
     </node>
   </node>
+  <node concept="Z5qvL" id="1Ka$n8$08pN">
+    <property role="Z5qvQ" value="4" />
+    <property role="TrG5h" value="Migrate_MoveConcepts_4" />
+    <property role="1AQGQl" value="Move 3 concepts to language `com.mbeddr.mpsutil.blutil`" />
+    <node concept="Z4OXk" id="1Ka$n8$08pZ" role="Z5rET">
+      <node concept="2pBcaW" id="1Ka$n8$08pX" role="Z5P1v">
+        <property role="2pBcoG" value="8919968723020343837" />
+        <property role="2pBcow" value="r:63a6d225-96f6-404a-a9eb-033dc2f950a1(de.itemis.mps.baseLanguageExtensions.structure)" />
+        <property role="2pBc3U" value="ForEachWithIndexOperation_old" />
+      </node>
+      <node concept="2pBcaW" id="1Ka$n8$08pY" role="Z5P1t">
+        <property role="2pBcoG" value="8919968723020343837" />
+        <property role="2pBcow" value="63e0e566-5131-447e-90e3-12ea330e1a00/r:f5bd2ad9-cd54-4408-b815-07f9f306f074(com.mbeddr.mpsutil.blutil/com.mbeddr.mpsutil.blutil.structure)" />
+        <property role="2pBc3U" value="ForEachWithIndexOperation" />
+      </node>
+      <node concept="7a1rZ" id="1Ka$n8$08pW" role="7agGg">
+        <node concept="2x4n5u" id="1Ka$n8$08pS" role="HKsnP">
+          <property role="2x4mPI" value="ForEachWithIndexOperation_old" />
+          <property role="2x4n5l" value="1vrpl0kw6sn4t" />
+          <node concept="2V$Bhx" id="1Ka$n8$08pT" role="2x4n5j">
+            <property role="2V$B1T" value="52b771c2-b79f-4f44-98f2-d24fd25a210b" />
+            <property role="2V$B1Q" value="de.itemis.mps.baseLanguageExtensions" />
+          </node>
+        </node>
+        <node concept="2x4n5u" id="1Ka$n8$08pU" role="HKsnM">
+          <property role="2x4mPI" value="ForEachWithIndexOperation" />
+          <property role="2x4n5l" value="1vrpl0kw6sn4t" />
+          <node concept="2V$Bhx" id="1Ka$n8$08pV" role="2x4n5j">
+            <property role="2V$B1T" value="63e0e566-5131-447e-90e3-12ea330e1a00" />
+            <property role="2V$B1Q" value="com.mbeddr.mpsutil.blutil" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="Z4OXk" id="1Ka$n8$08qb" role="Z5rET">
+      <node concept="2pBcaW" id="1Ka$n8$08q9" role="Z5P1v">
+        <property role="2pBcoG" value="7915817776605258993" />
+        <property role="2pBcow" value="r:63a6d225-96f6-404a-a9eb-033dc2f950a1(de.itemis.mps.baseLanguageExtensions.structure)" />
+        <property role="2pBc3U" value="SelectWithIndexOperation_old" />
+      </node>
+      <node concept="2pBcaW" id="1Ka$n8$08qa" role="Z5P1t">
+        <property role="2pBcoG" value="7915817776605258993" />
+        <property role="2pBcow" value="63e0e566-5131-447e-90e3-12ea330e1a00/r:f5bd2ad9-cd54-4408-b815-07f9f306f074(com.mbeddr.mpsutil.blutil/com.mbeddr.mpsutil.blutil.structure)" />
+        <property role="2pBc3U" value="SelectWithIndexOperation" />
+      </node>
+      <node concept="7a1rZ" id="1Ka$n8$08q8" role="7agGg">
+        <node concept="2x4n5u" id="1Ka$n8$08q4" role="HKsnP">
+          <property role="2x4mPI" value="SelectWithIndexOperation_old" />
+          <property role="2x4n5l" value="1o52b7ofsdxwx" />
+          <node concept="2V$Bhx" id="1Ka$n8$08q5" role="2x4n5j">
+            <property role="2V$B1T" value="52b771c2-b79f-4f44-98f2-d24fd25a210b" />
+            <property role="2V$B1Q" value="de.itemis.mps.baseLanguageExtensions" />
+          </node>
+        </node>
+        <node concept="2x4n5u" id="1Ka$n8$08q6" role="HKsnM">
+          <property role="2x4mPI" value="SelectWithIndexOperation" />
+          <property role="2x4n5l" value="1o52b7ofsdxwx" />
+          <node concept="2V$Bhx" id="1Ka$n8$08q7" role="2x4n5j">
+            <property role="2V$B1T" value="63e0e566-5131-447e-90e3-12ea330e1a00" />
+            <property role="2V$B1Q" value="com.mbeddr.mpsutil.blutil" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="Z4OXk" id="1Ka$n8$08qn" role="Z5rET">
+      <node concept="2pBcaW" id="1Ka$n8$08ql" role="Z5P1v">
+        <property role="2pBcoG" value="8919968723020245069" />
+        <property role="2pBcow" value="r:63a6d225-96f6-404a-a9eb-033dc2f950a1(de.itemis.mps.baseLanguageExtensions.structure)" />
+        <property role="2pBc3U" value="WhereWithIndexOperation_old" />
+      </node>
+      <node concept="2pBcaW" id="1Ka$n8$08qm" role="Z5P1t">
+        <property role="2pBcoG" value="8919968723020245069" />
+        <property role="2pBcow" value="63e0e566-5131-447e-90e3-12ea330e1a00/r:f5bd2ad9-cd54-4408-b815-07f9f306f074(com.mbeddr.mpsutil.blutil/com.mbeddr.mpsutil.blutil.structure)" />
+        <property role="2pBc3U" value="WhereWithIndexOperation" />
+      </node>
+      <node concept="7a1rZ" id="1Ka$n8$08qk" role="7agGg">
+        <node concept="2x4n5u" id="1Ka$n8$08qg" role="HKsnP">
+          <property role="2x4mPI" value="WhereWithIndexOperation_old" />
+          <property role="2x4n5l" value="1vrpl0kw6qix9" />
+          <node concept="2V$Bhx" id="1Ka$n8$08qh" role="2x4n5j">
+            <property role="2V$B1T" value="52b771c2-b79f-4f44-98f2-d24fd25a210b" />
+            <property role="2V$B1Q" value="de.itemis.mps.baseLanguageExtensions" />
+          </node>
+        </node>
+        <node concept="2x4n5u" id="1Ka$n8$08qi" role="HKsnM">
+          <property role="2x4mPI" value="WhereWithIndexOperation" />
+          <property role="2x4n5l" value="1vrpl0kw6qix9" />
+          <node concept="2V$Bhx" id="1Ka$n8$08qj" role="2x4n5j">
+            <property role="2V$B1T" value="63e0e566-5131-447e-90e3-12ea330e1a00" />
+            <property role="2V$B1Q" value="com.mbeddr.mpsutil.blutil" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 

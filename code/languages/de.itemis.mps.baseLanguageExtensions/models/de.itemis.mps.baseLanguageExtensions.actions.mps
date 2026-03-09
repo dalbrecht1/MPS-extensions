@@ -6,6 +6,7 @@
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
+    <import index="hba4" ref="63e0e566-5131-447e-90e3-12ea330e1a00/r:f5bd2ad9-cd54-4408-b815-07f9f306f074(com.mbeddr.mpsutil.blutil/com.mbeddr.mpsutil.blutil.structure)" />
     <import index="pkab" ref="r:63a6d225-96f6-404a-a9eb-033dc2f950a1(de.itemis.mps.baseLanguageExtensions.structure)" implicit="true" />
     <import index="tp2q" ref="r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.collections.structure)" implicit="true" />
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" implicit="true" />
@@ -268,7 +269,7 @@
     <property role="TrG5h" value="withIndex_operations" />
     <property role="3GE5qa" value="withIndexOperations" />
     <node concept="37WvkG" id="7Ja64GB9veX" role="37WGs$">
-      <ref role="37XkoT" to="pkab:6RqC_fThQjL" resolve="SelectWithIndexOperation" />
+      <ref role="37XkoT" to="hba4:6RqC_fThQjL" resolve="SelectWithIndexOperation" />
       <node concept="37Y9Zx" id="7Ja64GB9veY" role="37ZfLb">
         <node concept="3clFbS" id="7Ja64GB9veZ" role="2VODD2">
           <node concept="3clFbJ" id="7Ja64GB9vgD" role="3cqZAp">
@@ -463,7 +464,7 @@
       </node>
     </node>
     <node concept="37WvkG" id="7Ja64GBdSxq" role="37WGs$">
-      <ref role="37XkoT" to="pkab:7Ja64GBdQxd" resolve="WhereWithIndexOperation" />
+      <ref role="37XkoT" to="hba4:7Ja64GBdQxd" resolve="WhereWithIndexOperation" />
       <node concept="37Y9Zx" id="7Ja64GBdSxr" role="37ZfLb">
         <node concept="3clFbS" id="7Ja64GBdSxs" role="2VODD2">
           <node concept="3clFbJ" id="7Ja64GBdSyd" role="3cqZAp">
@@ -658,7 +659,7 @@
       </node>
     </node>
     <node concept="37WvkG" id="7Ja64GBei$m" role="37WGs$">
-      <ref role="37XkoT" to="pkab:7Ja64GBeeCt" resolve="ForEachWithIndexOperation" />
+      <ref role="37XkoT" to="hba4:7Ja64GBeeCt" resolve="ForEachWithIndexOperation" />
       <node concept="37Y9Zx" id="7Ja64GBei$n" role="37ZfLb">
         <node concept="3clFbS" id="7Ja64GBei$o" role="2VODD2">
           <node concept="3clFbJ" id="7Ja64GBei$p" role="3cqZAp">

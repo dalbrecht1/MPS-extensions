@@ -166,27 +166,36 @@
   </node>
   <node concept="1TIwiD" id="7Ja64GBeeCt">
     <property role="EcuMT" value="8919968723020343837" />
-    <property role="TrG5h" value="ForEachWithIndexOperation" />
+    <property role="TrG5h" value="ForEachWithIndexOperation_old" />
     <property role="34LRSv" value="forEachIdx" />
     <property role="R4oN_" value="execute for each element with index" />
     <property role="3GE5qa" value="withIndexOperations" />
     <ref role="1TJDcQ" to="tp2q:hy3sC_q" resolve="InternalSequenceOperation" />
+    <node concept="asaX9" id="1Ka$n8$08pO" role="lGtFl">
+      <property role="YLQ7P" value="The concept was moved to language &quot;com.mbeddr.mpsutil.blutil&quot;" />
+    </node>
   </node>
   <node concept="1TIwiD" id="7Ja64GBdQxd">
     <property role="EcuMT" value="8919968723020245069" />
-    <property role="TrG5h" value="WhereWithIndexOperation" />
+    <property role="TrG5h" value="WhereWithIndexOperation_old" />
     <property role="34LRSv" value="whereIdx" />
     <property role="R4oN_" value="include only matched element" />
     <property role="3GE5qa" value="withIndexOperations" />
     <ref role="1TJDcQ" to="tp2q:hy3sC_q" resolve="InternalSequenceOperation" />
+    <node concept="asaX9" id="1Ka$n8$08qc" role="lGtFl">
+      <property role="YLQ7P" value="The concept was moved to language &quot;com.mbeddr.mpsutil.blutil&quot;" />
+    </node>
   </node>
   <node concept="1TIwiD" id="6RqC_fThQjL">
     <property role="EcuMT" value="7915817776605258993" />
-    <property role="TrG5h" value="SelectWithIndexOperation" />
+    <property role="TrG5h" value="SelectWithIndexOperation_old" />
     <property role="34LRSv" value="selectIdx" />
     <property role="R4oN_" value="transform each element and index" />
     <property role="3GE5qa" value="withIndexOperations" />
     <ref role="1TJDcQ" to="tp2q:hy3sC_q" resolve="InternalSequenceOperation" />
+    <node concept="asaX9" id="1Ka$n8$08q0" role="lGtFl">
+      <property role="YLQ7P" value="The concept was moved to language &quot;com.mbeddr.mpsutil.blutil&quot;" />
+    </node>
   </node>
   <node concept="1TIwiD" id="2oJmO5M0doW">
     <property role="EcuMT" value="2751518233990321724" />
