@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:6a3a49bf-9631-499b-8ace-84153db69deb(de.itemis.mps.baseLanguageExtensions.test.groupByOperation@tests)">
+<model ref="r:35ddb1f6-c070-4528-b5df-f1b41413db4f(de.itemis.mps.baseLanguageExtensions.test.groupByOperation@tests)">
   <persistence version="9" />
   <languages>
     <use id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test" version="6" />

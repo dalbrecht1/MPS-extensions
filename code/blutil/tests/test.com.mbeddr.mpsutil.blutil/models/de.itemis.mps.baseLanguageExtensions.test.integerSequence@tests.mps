@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:e932e1bd-ff59-4a9b-a3c3-091902687aa2(de.itemis.mps.baseLanguageExtensions.test.integerSequence@tests)">
+<model ref="r:52f78c5a-ba8c-42c3-b267-44b9492ada08(de.itemis.mps.baseLanguageExtensions.test.integerSequence@tests)">
   <persistence version="9" />
   <languages>
     <use id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test" version="6" />
