@@ -3,6 +3,7 @@
   <persistence version="9" />
   <languages>
     <use id="982eb8df-2c96-4bd7-9963-11712ea622e5" name="jetbrains.mps.lang.resources" version="2" />
+    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="9" />
     <devkit ref="78434eb8-b0e5-444b-850d-e7c4ad2da9ab(jetbrains.mps.devkit.aspect.structure)" />
   </languages>
   <imports>
@@ -11,6 +12,7 @@
     <import index="87nw" ref="r:ca2ab6bb-f6e7-4c0f-a88c-b78b9b31fff3(de.slisson.mps.richtext.structure)" />
     <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" />
     <import index="tp25" ref="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" />
+    <import index="pkab" ref="r:63a6d225-96f6-404a-a9eb-033dc2f950a1(de.itemis.mps.baseLanguageExtensions.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
@@ -1077,6 +1079,14 @@
     <property role="EcuMT" value="8718469662520608193" />
     <property role="3GE5qa" value="instanceof" />
     <property role="TrG5h" value="IfInstanceOfVariableProvider" />
+  </node>
+  <node concept="1TIwiD" id="w6MstC16Ds">
+    <property role="EcuMT" value="578371460444482140" />
+    <property role="TrG5h" value="ElvisOperation" />
+    <property role="34LRSv" value="?:" />
+    <property role="R4oN_" value="elvis operation" />
+    <property role="3GE5qa" value="elvisOperation" />
+    <ref role="1TJDcQ" to="tpee:fJuHJVf" resolve="BinaryOperation" />
   </node>
 </model>
 
